@@ -1,25 +1,39 @@
 --
 ---DDL---
 --
-CREATE TABLE peces (id_pez SERIAL NOT NULL PRIMARY KEY, nombre VARCHAR, especie VARCHAR);
+CREATE TABLE IF NOT EXISTS peces (
+    id_pez SERIAL NOT NULL PRIMARY KEY, 
+    nombre VARCHAR, 
+    especie VARCHAR
+);
 
-CREATE TABLE IF NOT EXISTS tanques 
-    (id_tanque SERIAL NOT NULL PRIMARY KEY, id_pez INTEGER NOT NULL, capacidad INTEGER, temperatura INTEGER, nombre VARCHAR,
+CREATE TABLE IF NOT EXISTS tanques (
+    id_tanque SERIAL NOT NULL PRIMARY KEY, 
+    id_pez INTEGER NOT NULL, 
+    capacidad INTEGER, 
+    temperatura INTEGER, 
+    nombre VARCHAR,
     FOREIGN KEY(id_pez) REFERENCES peces(id_pez)
-    );
+);
 
-CREATE TABLE cuidador (id_cuidador SERIAL NOT NULL PRIMARY KEY, nombre VARCHAR, turno VARCHAR);
+CREATE TABLE IF NOT EXISTS cuidador (
+    id_cuidador SERIAL NOT NULL PRIMARY KEY, 
+    nombre VARCHAR, turno VARCHAR
+);
 
-CREATE TABLE IF NOT EXISTS tanques 
-    (id_alimentacion SERIAL NOT NULL PRIMARY KEY, id_pez INTEGER NOT NULL, tipo VARCHAR, hora time,
+CREATE TABLE IF NOT EXISTS tanques (
+    id_alimentacion SERIAL NOT NULL PRIMARY KEY, 
+    id_pez INTEGER NOT NULL, 
+    tipo VARCHAR, hora time,
     FOREIGN KEY(id_pez) REFERENCES peces(id_pez)
-    );
+);
 
-CREATE TABLE IF NOT EXISTS alimentacion_denegada 
-    (id_alimentacion_denegada SERIAL NOT NULL PRIMARY KEY, id_alimentacion INTEGER NOT NULL, razon VARCHAR,
+CREATE TABLE IF NOT EXISTS alimentacion_denegada (
+    id_alimentacion_denegada SERIAL NOT NULL PRIMARY KEY, 
+    id_alimentacion INTEGER NOT NULL, 
+    razon VARCHAR,
     FOREIGN KEY(id_alimentacion) REFERENCES alimentacion(id_alimentacion)
-    );
-
+);
 
 
 --
@@ -52,15 +66,16 @@ SELECT peces.nombre, peces.especie, AVG(tanques.temperatura) OVER (PARTITION BY 
 
 CREATE OR REPLACE FUNCTION alimentacion_valida () RETURNS TRIGGER
 AS $$
-
     IF NEW.especie = cetáceo AND NEW.tipo <> 'planton' THEN
         INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
         RETURN NULL;
     END IF;
+
     IF NEW.especie = mamifero AND NEW.tipo <> 'peces pequeños y crustaceos' THEN
         INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
         RETURN NULL;
     END IF;
+
     IF NEW.especie = tiburon AND NEW.tipo <> 'todo' THEN
         INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
         RETURN NULL;
