@@ -2,35 +2,36 @@
 ---DDL---
 --
 CREATE TABLE IF NOT EXISTS peces (
-    id_pez SERIAL NOT NULL PRIMARY KEY, 
-    nombre VARCHAR, 
+    id_pez SERIAL NOT NULL PRIMARY KEY,
+    nombre VARCHAR,
     especie VARCHAR
 );
 
 CREATE TABLE IF NOT EXISTS tanques (
-    id_tanque SERIAL NOT NULL PRIMARY KEY, 
-    id_pez INTEGER NOT NULL, 
-    capacidad INTEGER, 
-    temperatura INTEGER, 
+    id_tanque SERIAL NOT NULL PRIMARY KEY,
+    id_pez INTEGER NOT NULL,
+    capacidad INTEGER,
+    temperatura INTEGER,
     nombre VARCHAR,
     FOREIGN KEY(id_pez) REFERENCES peces(id_pez)
 );
 
 CREATE TABLE IF NOT EXISTS cuidador (
-    id_cuidador SERIAL NOT NULL PRIMARY KEY, 
-    nombre VARCHAR, turno VARCHAR
+    id_cuidador SERIAL NOT NULL PRIMARY KEY,
+    nombre VARCHAR, 
+    turno VARCHAR
 );
 
-CREATE TABLE IF NOT EXISTS tanques (
-    id_alimentacion SERIAL NOT NULL PRIMARY KEY, 
-    id_pez INTEGER NOT NULL, 
+CREATE TABLE IF NOT EXISTS alimentacion (
+    id_alimentacion SERIAL NOT NULL PRIMARY KEY,
+    id_pez INTEGER NOT NULL,
     tipo VARCHAR, hora time,
     FOREIGN KEY(id_pez) REFERENCES peces(id_pez)
 );
 
 CREATE TABLE IF NOT EXISTS alimentacion_denegada (
-    id_alimentacion_denegada SERIAL NOT NULL PRIMARY KEY, 
-    id_alimentacion INTEGER NOT NULL, 
+    id_alimentacion_denegada SERIAL NOT NULL PRIMARY KEY,
+    id_alimentacion INTEGER NOT NULL,
     razon VARCHAR,
     FOREIGN KEY(id_alimentacion) REFERENCES alimentacion(id_alimentacion)
 );
@@ -39,7 +40,7 @@ CREATE TABLE IF NOT EXISTS alimentacion_denegada (
 --
 -----A---
 --
-SELECT peces.nombre, peces.especie, 
+SELECT peces.nombre, peces.especie,
     (SELECT AVG(tanques.temperatura) FROM tanques JOIN peces USING(ID_tanque) WHERE peces.especie = 'cetáceo' ) AS AVG
     FROM peces JOIN tanques USING(ID_tanque)
     WHERE tanques.temperatura = 50 ;
@@ -96,7 +97,7 @@ $$
 DECLARE
 
 aux RECORD;
-cur CURSOR FOR (SELECT peces.nombre, alimentacion.tipo, alimentacion.hora  
+cur CURSOR FOR (SELECT peces.nombre, alimentacion.tipo, alimentacion.hora
     FROM peces JOIN tanques USIN(ID_tanque) JOIN alimentacion USING(ID_pez)
     WHERE tanque.nombre = 'Protección');
 
@@ -118,8 +119,8 @@ LANGUAGE 'plpgsql';
 ---D---
 ---
 
-CREATE ROLE cuidador_acuario; 
+CREATE ROLE cuidador_acuario;
 CREATE ROLE administrador_acuario;
 
 GRANT SELECT, INSERT ON peces, alimentacion TO cuidador_acuario;
-GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA PUBLIC TO administrador_acuario 
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA PUBLIC TO administrador_acuario
