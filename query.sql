@@ -68,20 +68,21 @@ SELECT peces.nombre, peces.especie, AVG(tanques.temperatura) OVER (PARTITION BY 
 
 CREATE OR REPLACE FUNCTION alimentacion_valida () RETURNS TRIGGER
 AS $$
-    IF NEW.especie = cetáceo AND NEW.tipo <> 'planton' THEN
-        INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
-        RETURN NULL;
-    END IF;
+    BEGIN
+        IF NEW.especie = cetáceo AND NEW.tipo <> 'planton' THEN
+            INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
+            RETURN NULL;
+        END IF;
 
-    IF NEW.especie = mamifero AND NEW.tipo <> 'peces pequeños y crustaceos' THEN
-        INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
-        RETURN NULL;
-    END IF;
+        IF NEW.especie = mamifero AND NEW.tipo <> 'peces pequeños y crustaceos' THEN
+            INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
+            RETURN NULL;
+        END IF;
 
-    IF NEW.especie = tiburon AND NEW.tipo <> 'todo' THEN
-        INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
-        RETURN NULL;
-    END IF;
+        IF NEW.especie = tiburon AND NEW.tipo <> 'todo' THEN
+            INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
+            RETURN NULL;
+        END IF;
 END;
 $$
 LANGUAGE 'plpgsql';
@@ -92,7 +93,7 @@ CREATE OR REPLACE TRIGGER validar_alimentacion BEFORE INSERT ON alimentacion FOR
 ---C---
 --
 
-CREATE OR REPLACE FUNCTION funcion2 () RETURNS SETOF AS
+CREATE OR REPLACE FUNCTION generar_informe () RETURNS SETOF AS
 $$
 
 DECLARE
