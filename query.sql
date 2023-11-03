@@ -25,7 +25,8 @@ CREATE TABLE IF NOT EXISTS cuidador (
 CREATE TABLE IF NOT EXISTS alimentacion (
     id_alimentacion SERIAL NOT NULL PRIMARY KEY,
     id_pez INTEGER NOT NULL,
-    tipo VARCHAR, hora time,
+    tipo VARCHAR, 
+    hora time,
     FOREIGN KEY(id_pez) REFERENCES peces(id_pez)
 );
 
