@@ -42,24 +42,24 @@ CREATE TABLE IF NOT EXISTS alimentacion_denegada (
 -----A---
 --
 SELECT peces.nombre, peces.especie,
-    (SELECT AVG(tanques.temperatura) FROM tanques JOIN peces USING(ID_tanque) WHERE peces.especie = 'cetáceo' ) AS AVG
-    FROM peces JOIN tanques USING(ID_tanque)
+    (SELECT AVG(tanques.temperatura) FROM tanques JOIN peces USING(id_pez) WHERE peces.especie = 'cetáceo' ) AS AVG
+    FROM peces JOIN tanques USING(id_pez)
     WHERE tanques.temperatura = 50 ;
 
 
 ---usando clausula with
 
-WITH AVG AS (SELECT ID_tanque, AVG(tanques.temperatura) AS avg_temp FROM tanques JOIN peces USING(ID_tanque) WHERE peces.especie = 'cetáceo')
+WITH AVG AS (SELECT id_pez, AVG(tanques.temperatura) AS avg_temp FROM tanques JOIN peces USING(id_pez) WHERE peces.especie = 'cetáceo')
 
 SELECT peces.nombre, peces.especie, avg_temp
-    FROM peces JOIN tanques USING(ID_tanque) JOIN AVG USING(ID_tanque)
+    FROM peces JOIN tanques USING(id_pez) JOIN AVgit G USING(id_pez)
     WHERE tanques.temperatura = 50;
 
 
 --usando FAV
 
 SELECT peces.nombre, peces.especie, AVG(tanques.temperatura) OVER (PARTITION BY especie)
-    FROM peces JOIN tanques USING(ID_tanque)
+    FROM peces JOIN tanques USING(id_pez)
     WHERE tanques.temperatura = 50 ;
 
 --
