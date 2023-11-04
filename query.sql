@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS cuidador (
 );
 
 CREATE TABLE IF NOT EXISTS alimentacion (
-    id_alimentacion SERIAL NOT NULL PRIMARY KEY,
+    id_alimentacion SERIAL UNIQUE NOT NULL PRIMARY KEY,
     id_pez INTEGER NOT NULL,
     tipo VARCHAR, 
     hora time,
@@ -65,33 +65,51 @@ SELECT peces.nombre, peces.especie, AVG(tanques.temperatura) OVER (PARTITION BY 
 --
 ---B---
 --
+insert into alimentacion (id_pez, tipo, hora) VALUES (20, 'gus', '09:20:10')
+select * from alimentacion
+select * from alimentacion_denegada
 
 CREATE OR REPLACE FUNCTION alimentacion_valida () RETURNS TRIGGER
 AS $$
+    DECLARE
+    especie_pez VARCHAR;
     BEGIN
-        IF NEW.especie = cetáceo AND NEW.tipo <> 'planton' THEN
-            INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
-            RETURN NULL;
-        END IF;
+        --se extrae la especie del pez segun el id insertado
+		SELECT (SELECT peces.especie FROM peces WHERE peces.id_pez = NEW.id_pez) INTO especie_pez;
 
-        IF NEW.especie = mamifero AND NEW.tipo <> 'peces pequeños y crustaceos' THEN
-            INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
-            RETURN NULL;
-        END IF;
+        IF (especie_pez = 'cetáceo' OR especie_pez = 'mamifero' OR especie_pez = 'Tiburon') THEN
 
-        IF NEW.especie = tiburon AND NEW.tipo <> 'todo' THEN
-            INSERT INTO alimentacion_denegada values(NEW.ID_alimentacion, 'Tipo de alimento inválido');
+            IF especie_pez = 'cetáceo' AND NEW.tipo <> 'planton' THEN
+                INSERT INTO alimentacion_denegada (id_alimentacion, razon) VALUES(NEW.id_alimentacion, 'Tipo de alimento inválido');
+                RETURN NULL;
+
+            ELSIF especie_pez = 'mamifero' AND NEW.tipo <> 'peces pequeños y crustaceos' THEN
+                INSERT INTO alimentacion_denegada (id_alimentacion, razon) VALUES(NEW.id_alimentacion, 'Tipo de alimento inválido');
+                RETURN NULL;
+
+            ELSIF especie_pez = 'Tiburon' AND NEW.tipo <> 'Todo' THEN
+                INSERT INTO alimentacion_denegada (id_alimentacion, razon) VALUES(NEW.id_alimentacion, 'Tipo de alimento inválido');
+                RETURN NULL;
+            END IF;
+        -- si no es un cetaceo, un mamifero o un tiburon se deniega el insert
+        ELSE
+            INSERT INTO alimentacion_denegada(id_alimentacion, razon) VALUES(NEW.id_alimentacion, 'Tipo de alimento inválido');
             RETURN NULL;
         END IF;
-END;
+        -- si es valido el insert se registra
+		RETURN NEW;
+    END;
 $$
 LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE TRIGGER validar_alimentacion BEFORE INSERT ON alimentacion FOR EACH ROW EXECUTE PROCEDURE alimentacion_valida();
+
+CREATE OR REPLACE validar_alimentacion TRIGGER BEFORE INSERT ON alimentacion FOR EACH ROW EXECUTE PROCEDURE alimentacion_valida();
 
 --
 ---C---
 --
+
+-- para probar la funcion SELECT * from generar_informe() as (nombre VARCHAR, tipo VARCHAR, hora time);
 
 CREATE OR REPLACE FUNCTION generar_informe () RETURNS SETOF RECORD AS
 $$
@@ -120,7 +138,7 @@ BEGIN
 		IF aux_cursor.tipo <> aux_to_compare.tipo AND aux_cursor.hora <> aux_to_compare.hora THEN
 			aux_to_compare := aux_cursor;
 			RETURN NEXT aux_cursor;
-		 ELSE 
+		ELSE 
          -- se elimina de la tabla alimentacion la fila correspondiente
 			DELETE FROM alimentacion WHERE CURRENT OF cur;
 		END IF;
