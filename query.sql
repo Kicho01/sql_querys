@@ -93,25 +93,40 @@ CREATE OR REPLACE TRIGGER validar_alimentacion BEFORE INSERT ON alimentacion FOR
 ---C---
 --
 
-CREATE OR REPLACE FUNCTION generar_informe () RETURNS SETOF AS
+CREATE OR REPLACE FUNCTION generar_informe () RETURNS SETOF RECORD AS
 $$
 
 DECLARE
-
-aux RECORD;
-cur CURSOR FOR (SELECT peces.nombre, alimentacion.tipo, alimentacion.hora
-    FROM peces JOIN tanques USIN(ID_tanque) JOIN alimentacion USING(ID_pez)
-    WHERE tanque.nombre = 'Protección');
+    -- crear variables auxiliares para trabajar con el cursor y comparar si esta repetida la alimentacion
+    aux_cursor RECORD;
+    aux_to_compare RECORD;
+    -- crear el cursor
+    cur CURSOR FOR (SELECT peces.nombre, alimentacion.tipo, alimentacion.hora
+        FROM tanques JOIN peces USING(id_pez) JOIN alimentacion USING(id_pez)
+        WHERE tanques.nombre = 'Protección' ORDER BY alimentacion.tipo, alimentacion.hora )
+		FOR UPDATE;
 
 BEGIN
+    -- se abre el cursor
+    OPEN cur;
+    -- se avanza un paso en el cursor para poder inicializar aux_to_compare
+	FETCH FROM cur INTO aux_cursor;
+	aux_to_compare := aux_cursor;
+	RETURN NEXT aux_cursor;
+    LOOP
+        FETCH FROM cur INTO aux_cursor;
+        EXIT WHEN NOT FOUND;
+        -- se realiza la comparacion para eliminar repeticiones
+		IF aux_cursor.tipo <> aux_to_compare.tipo AND aux_cursor.hora <> aux_to_compare.hora THEN
+			aux_to_compare := aux_cursor;
+			RETURN NEXT aux_cursor;
+		 ELSE 
+         -- se elimina de la tabla alimentacion la fila correspondiente
+			DELETE FROM alimentacion WHERE CURRENT OF cur;
+		END IF;
+    END LOOP;
 
-LOOP
-    FETCH FROM cur INTO aux;
-    EXIT WHEN NOT FOUND;
-        RETURN NEXT aux;
-END LOOP;
-
-close cur;
+    CLOSE cur;
 
 END;
 $$
