@@ -154,8 +154,13 @@ LANGUAGE 'plpgsql';
 ---D---
 ---
 
+-- crear los roles
 CREATE ROLE cuidador_acuario;
 CREATE ROLE administrador_acuario;
 
+-- dar permisos
 GRANT SELECT, INSERT ON peces, alimentacion TO cuidador_acuario;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA PUBLIC TO administrador_acuario
+
+--eliminar rol
+DROP ROLE administrador_acuario;
