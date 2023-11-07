@@ -1,100 +1,1000 @@
-1,23,pellets,11:33 PM
-2,2,live worms,3:23 PM
-3,24,pellets,9:16 PM
-4,35,flakes,7:23 PM
-5,15,bloodworms,5:03 AM
-6,41,tubifex worms,11:28 AM
-7,41,freeze-dried,5:25 AM
-8,14,flakes,1:20 AM
-9,27,tubifex worms,6:22 AM
-10,32,krill,6:06 PM
-11,3,live worms,11:42 AM
-12,8,flakes,10:42 AM
-13,30,flakes,12:22 AM
-14,13,brine shrimp,3:39 PM
-15,39,bloodworms,8:46 AM
-16,41,live worms,4:57 PM
-17,21,tubifex worms,11:01 PM
-18,26,mosquito larvae,3:22 AM
-19,5,mosquito larvae,12:56 AM
-20,7,pellets,5:24 PM
-21,41,pellets,2:04 PM
-22,37,bloodworms,8:21 PM
-23,45,krill,1:29 AM
-24,8,brine shrimp,4:18 AM
-25,13,mosquito larvae,3:45 PM
-26,31,krill,7:07 AM
-27,33,brine shrimp,6:04 AM
-28,26,brine shrimp,5:12 PM
-29,43,freeze-dried,10:21 PM
-30,27,tubifex worms,1:56 PM
-31,28,pellets,12:06 PM
-32,41,flakes,4:05 PM
-33,40,bloodworms,1:45 PM
-34,9,bloodworms,6:31 PM
-35,39,mosquito larvae,2:29 AM
-36,29,tubifex worms,7:01 PM
-37,25,krill,7:51 PM
-38,37,pellets,3:11 AM
-39,43,brine shrimp,5:59 AM
-40,14,vegetables,11:21 AM
-41,6,mosquito larvae,3:25 PM
-42,9,vegetables,5:29 AM
-43,15,tubifex worms,1:29 AM
-44,13,tubifex worms,11:45 PM
-45,45,krill,10:40 AM
-46,47,pellets,10:03 PM
-47,29,mosquito larvae,3:47 PM
-48,30,brine shrimp,2:37 AM
-49,6,mosquito larvae,3:41 PM
-50,28,mosquito larvae,12:47 AM
-51,31,mosquito larvae,10:57 PM
-52,33,tubifex worms,12:06 AM
-53,38,pellets,1:00 PM
-54,27,brine shrimp,2:12 PM
-55,48,live worms,10:30 PM
-56,37,vegetables,11:09 PM
-57,17,mosquito larvae,10:32 PM
-58,25,tubifex worms,10:57 AM
-59,18,live worms,8:41 PM
-60,40,pellets,5:58 AM
-61,15,flakes,6:34 AM
-62,29,bloodworms,8:21 AM
-63,21,pellets,8:27 AM
-64,8,freeze-dried,8:08 PM
-65,18,flakes,3:29 PM
-66,42,krill,5:00 PM
-67,34,bloodworms,5:34 PM
-68,50,tubifex worms,2:55 PM
-69,22,tubifex worms,4:56 AM
-70,45,brine shrimp,2:51 PM
-71,40,mosquito larvae,2:13 PM
-72,31,tubifex worms,1:33 AM
-73,31,freeze-dried,2:27 PM
-74,16,live worms,10:04 AM
-75,3,live worms,8:36 AM
-76,30,tubifex worms,7:54 AM
-77,31,bloodworms,6:11 PM
-78,50,live worms,11:30 PM
-79,35,bloodworms,6:17 AM
-80,17,brine shrimp,9:20 AM
-81,44,vegetables,11:54 AM
-82,28,brine shrimp,5:01 PM
-83,43,bloodworms,8:23 PM
-84,32,bloodworms,2:10 AM
-85,13,brine shrimp,2:25 PM
-86,15,pellets,1:15 AM
-87,2,live worms,11:34 AM
-88,22,flakes,8:35 PM
-89,36,krill,9:20 AM
-90,26,mosquito larvae,3:11 PM
-91,47,mosquito larvae,3:41 PM
-92,8,vegetables,1:14 AM
-93,7,tubifex worms,11:43 AM
-94,11,brine shrimp,10:00 PM
-95,4,vegetables,11:14 AM
-96,21,krill,4:26 PM
-97,32,vegetables,10:32 PM
-98,29,krill,9:28 PM
-99,42,vegetables,12:23 AM
-100,19,mosquito larvae,7:34 PM
+1,379,krill,9:46 AM
+2,99,freeze-dried,1:13 PM
+3,547,vegetables,5:18 AM
+4,376,freeze-dried,10:17 PM
+5,933,tubifex worms,2:00 PM
+6,702,flakes,4:03 PM
+7,487,tubifex worms,8:02 PM
+8,625,vegetables,10:28 PM
+9,770,pellets,9:54 PM
+10,532,mosquito larvae,10:42 PM
+11,983,vegetables,9:28 AM
+12,42,bloodworms,6:42 AM
+13,671,flakes,5:48 AM
+14,801,bloodworms,9:29 AM
+15,479,bloodworms,4:41 AM
+16,215,bloodworms,9:07 PM
+17,304,tubifex worms,1:53 PM
+18,278,krill,10:49 PM
+19,779,freeze-dried,1:05 AM
+20,438,bloodworms,7:29 PM
+21,989,tubifex worms,9:45 PM
+22,818,mosquito larvae,7:58 PM
+23,894,vegetables,12:11 AM
+24,432,pellets,1:53 AM
+25,898,bloodworms,8:40 PM
+26,999,freeze-dried,5:07 PM
+27,467,live worms,2:50 PM
+28,495,vegetables,1:06 AM
+29,44,pellets,4:11 PM
+30,361,vegetables,11:48 PM
+31,313,vegetables,7:18 AM
+32,901,tubifex worms,10:22 PM
+33,551,flakes,8:13 PM
+34,205,flakes,5:53 AM
+35,789,live worms,4:53 PM
+36,359,vegetables,11:28 AM
+37,381,krill,4:55 AM
+38,435,brine shrimp,2:37 PM
+39,741,vegetables,6:58 PM
+40,237,flakes,5:45 AM
+41,8,bloodworms,2:49 PM
+42,105,brine shrimp,4:06 PM
+43,746,brine shrimp,7:31 PM
+44,916,brine shrimp,5:31 AM
+45,229,bloodworms,6:35 PM
+46,268,live worms,10:21 PM
+47,159,mosquito larvae,1:27 PM
+48,96,brine shrimp,12:24 PM
+49,398,tubifex worms,3:33 PM
+50,840,mosquito larvae,7:49 PM
+51,835,freeze-dried,6:24 AM
+52,561,tubifex worms,2:50 AM
+53,217,krill,12:49 PM
+54,814,vegetables,5:04 AM
+55,532,bloodworms,8:40 PM
+56,31,vegetables,8:23 AM
+57,179,vegetables,11:24 AM
+58,347,live worms,7:43 PM
+59,418,mosquito larvae,12:49 AM
+60,415,freeze-dried,5:35 AM
+61,516,mosquito larvae,5:48 PM
+62,277,mosquito larvae,6:04 AM
+63,697,flakes,8:51 PM
+64,10,mosquito larvae,10:23 AM
+65,74,pellets,4:17 PM
+66,469,krill,3:12 PM
+67,398,pellets,12:55 AM
+68,271,tubifex worms,1:38 PM
+69,954,vegetables,4:08 AM
+70,220,flakes,6:00 AM
+71,484,tubifex worms,11:59 AM
+72,865,krill,4:51 PM
+73,505,pellets,9:20 AM
+74,101,freeze-dried,4:35 AM
+75,853,brine shrimp,11:49 AM
+76,417,mosquito larvae,8:39 PM
+77,799,tubifex worms,4:08 PM
+78,814,krill,1:14 PM
+79,644,brine shrimp,4:43 AM
+80,986,mosquito larvae,1:25 PM
+81,499,pellets,9:53 AM
+82,252,pellets,4:30 PM
+83,425,brine shrimp,9:17 AM
+84,54,freeze-dried,3:05 PM
+85,750,bloodworms,8:00 AM
+86,882,brine shrimp,12:10 AM
+87,695,vegetables,3:22 PM
+88,861,krill,5:08 PM
+89,755,brine shrimp,9:03 PM
+90,60,brine shrimp,9:10 PM
+91,424,flakes,10:10 AM
+92,633,pellets,3:27 AM
+93,887,brine shrimp,2:25 AM
+94,870,krill,6:03 AM
+95,401,krill,12:23 AM
+96,392,brine shrimp,3:47 AM
+97,166,pellets,6:27 AM
+98,282,krill,3:02 AM
+99,675,freeze-dried,1:40 PM
+100,425,mosquito larvae,12:55 AM
+101,748,flakes,12:38 PM
+102,107,tubifex worms,12:16 PM
+103,95,live worms,3:20 PM
+104,89,freeze-dried,6:29 PM
+105,5,krill,1:08 AM
+106,888,krill,12:41 AM
+107,45,pellets,2:35 AM
+108,226,mosquito larvae,11:53 AM
+109,380,live worms,5:53 AM
+110,285,brine shrimp,3:05 PM
+111,476,brine shrimp,1:21 AM
+112,133,freeze-dried,5:02 PM
+113,772,brine shrimp,10:12 PM
+114,54,pellets,12:13 AM
+115,525,krill,5:07 PM
+116,262,bloodworms,10:51 PM
+117,522,live worms,6:04 AM
+118,701,flakes,11:24 PM
+119,763,krill,6:44 PM
+120,3,pellets,2:08 PM
+121,554,brine shrimp,11:03 PM
+122,681,freeze-dried,8:12 PM
+123,605,brine shrimp,7:21 AM
+124,344,mosquito larvae,11:15 AM
+125,838,freeze-dried,3:50 AM
+126,784,live worms,5:02 PM
+127,66,flakes,3:41 PM
+128,420,bloodworms,10:09 PM
+129,147,bloodworms,12:03 AM
+130,836,tubifex worms,4:15 AM
+131,687,mosquito larvae,1:51 PM
+132,939,tubifex worms,6:19 AM
+133,273,bloodworms,11:16 PM
+134,733,brine shrimp,7:28 PM
+135,658,pellets,9:38 AM
+136,395,freeze-dried,6:20 AM
+137,339,mosquito larvae,1:08 AM
+138,391,flakes,10:24 AM
+139,298,tubifex worms,2:16 PM
+140,862,tubifex worms,12:35 PM
+141,947,flakes,11:52 AM
+142,606,bloodworms,9:40 PM
+143,678,flakes,8:49 AM
+144,600,tubifex worms,1:22 AM
+145,917,pellets,6:03 PM
+146,466,freeze-dried,1:53 PM
+147,248,vegetables,11:12 PM
+148,364,live worms,6:10 PM
+149,177,pellets,4:02 PM
+150,470,tubifex worms,10:18 PM
+151,112,pellets,2:37 PM
+152,567,tubifex worms,6:37 AM
+153,429,vegetables,10:39 PM
+154,444,vegetables,12:32 AM
+155,51,vegetables,12:07 PM
+156,628,vegetables,12:49 AM
+157,915,tubifex worms,7:08 PM
+158,982,mosquito larvae,11:27 AM
+159,808,vegetables,12:28 PM
+160,210,freeze-dried,5:06 AM
+161,59,flakes,8:26 AM
+162,35,live worms,12:30 AM
+163,412,flakes,4:07 AM
+164,851,krill,5:31 AM
+165,258,vegetables,1:12 PM
+166,547,bloodworms,4:44 PM
+167,924,vegetables,1:26 AM
+168,557,live worms,10:35 PM
+169,79,bloodworms,2:29 PM
+170,94,tubifex worms,5:27 AM
+171,136,krill,3:22 PM
+172,76,vegetables,1:02 PM
+173,291,krill,9:50 PM
+174,760,flakes,1:11 PM
+175,188,brine shrimp,4:20 PM
+176,111,vegetables,7:28 PM
+177,708,krill,10:23 PM
+178,944,brine shrimp,6:20 AM
+179,788,flakes,10:11 PM
+180,942,krill,3:50 PM
+181,495,bloodworms,10:31 AM
+182,860,freeze-dried,4:02 PM
+183,443,brine shrimp,10:42 PM
+184,843,bloodworms,12:25 PM
+185,193,mosquito larvae,9:10 PM
+186,28,bloodworms,7:38 AM
+187,628,vegetables,9:15 PM
+188,507,brine shrimp,10:17 AM
+189,257,bloodworms,8:19 PM
+190,848,bloodworms,12:56 AM
+191,525,brine shrimp,3:11 AM
+192,317,krill,7:08 PM
+193,370,brine shrimp,11:25 AM
+194,381,tubifex worms,6:01 AM
+195,223,pellets,8:48 AM
+196,717,freeze-dried,9:25 PM
+197,280,freeze-dried,6:37 PM
+198,860,vegetables,8:07 PM
+199,291,live worms,10:05 AM
+200,726,krill,2:01 AM
+201,309,bloodworms,3:53 AM
+202,513,krill,11:33 AM
+203,838,live worms,1:12 PM
+204,276,brine shrimp,3:44 PM
+205,400,tubifex worms,10:31 AM
+206,288,mosquito larvae,7:58 PM
+207,722,brine shrimp,6:24 AM
+208,990,flakes,1:37 AM
+209,824,flakes,4:04 PM
+210,54,flakes,11:22 AM
+211,796,live worms,10:24 AM
+212,732,tubifex worms,9:51 PM
+213,971,mosquito larvae,5:49 PM
+214,601,pellets,7:51 AM
+215,469,krill,5:29 PM
+216,285,bloodworms,11:01 PM
+217,646,vegetables,1:36 PM
+218,723,flakes,9:51 AM
+219,324,tubifex worms,7:05 AM
+220,445,live worms,4:48 AM
+221,2,tubifex worms,4:19 PM
+222,944,pellets,4:49 AM
+223,698,pellets,9:11 PM
+224,569,krill,5:25 AM
+225,280,freeze-dried,2:38 PM
+226,560,vegetables,12:33 AM
+227,701,vegetables,10:50 AM
+228,543,mosquito larvae,12:32 AM
+229,127,pellets,2:27 AM
+230,133,freeze-dried,10:18 PM
+231,853,live worms,7:05 PM
+232,345,bloodworms,10:53 AM
+233,160,mosquito larvae,12:57 PM
+234,536,pellets,9:00 PM
+235,362,tubifex worms,12:34 AM
+236,623,tubifex worms,10:21 PM
+237,283,tubifex worms,1:16 PM
+238,635,vegetables,5:23 PM
+239,334,krill,8:04 AM
+240,799,brine shrimp,11:06 PM
+241,756,flakes,7:09 AM
+242,208,vegetables,8:58 PM
+243,982,mosquito larvae,6:32 AM
+244,272,brine shrimp,5:11 PM
+245,303,mosquito larvae,1:22 PM
+246,786,mosquito larvae,5:13 PM
+247,342,brine shrimp,6:34 AM
+248,29,krill,2:24 PM
+249,73,krill,7:26 PM
+250,896,flakes,12:31 PM
+251,572,krill,1:57 AM
+252,410,flakes,2:03 AM
+253,166,live worms,5:38 AM
+254,312,pellets,3:29 AM
+255,365,bloodworms,6:52 AM
+256,862,live worms,10:01 PM
+257,249,krill,5:53 AM
+258,841,brine shrimp,6:36 PM
+259,997,pellets,2:29 PM
+260,432,brine shrimp,5:07 PM
+261,102,bloodworms,11:41 AM
+262,921,pellets,6:43 PM
+263,245,mosquito larvae,1:30 PM
+264,892,live worms,4:28 AM
+265,78,bloodworms,11:08 AM
+266,241,brine shrimp,8:58 PM
+267,282,flakes,7:21 PM
+268,170,bloodworms,3:56 PM
+269,93,mosquito larvae,9:58 PM
+270,965,tubifex worms,7:31 AM
+271,810,vegetables,9:55 AM
+272,670,brine shrimp,1:17 PM
+273,774,mosquito larvae,7:53 AM
+274,68,bloodworms,5:28 AM
+275,863,flakes,9:09 PM
+276,173,freeze-dried,12:13 PM
+277,79,brine shrimp,4:06 PM
+278,33,vegetables,11:17 PM
+279,402,krill,3:20 AM
+280,330,brine shrimp,2:23 AM
+281,474,live worms,2:36 AM
+282,229,live worms,8:17 AM
+283,660,flakes,9:20 PM
+284,765,tubifex worms,1:38 PM
+285,509,pellets,2:41 PM
+286,86,pellets,9:45 PM
+287,154,krill,6:05 AM
+288,984,vegetables,10:00 PM
+289,28,brine shrimp,10:44 AM
+290,75,krill,12:54 AM
+291,159,live worms,3:45 PM
+292,259,flakes,2:55 PM
+293,695,mosquito larvae,3:02 AM
+294,136,freeze-dried,9:18 PM
+295,97,freeze-dried,9:55 AM
+296,612,live worms,3:20 PM
+297,733,tubifex worms,4:58 AM
+298,674,bloodworms,2:35 PM
+299,291,pellets,7:34 PM
+300,116,vegetables,4:14 AM
+301,815,flakes,10:33 PM
+302,197,brine shrimp,7:49 PM
+303,745,brine shrimp,10:39 PM
+304,46,tubifex worms,2:15 PM
+305,639,pellets,5:30 AM
+306,654,krill,9:59 PM
+307,706,bloodworms,5:10 AM
+308,920,tubifex worms,4:02 PM
+309,114,mosquito larvae,6:17 AM
+310,833,live worms,1:21 AM
+311,884,freeze-dried,5:37 AM
+312,911,flakes,3:19 AM
+313,639,live worms,4:46 AM
+314,349,live worms,10:41 AM
+315,938,pellets,10:59 PM
+316,839,flakes,2:14 PM
+317,954,live worms,5:49 PM
+318,549,pellets,1:33 AM
+319,9,live worms,8:24 AM
+320,148,freeze-dried,3:14 AM
+321,231,brine shrimp,7:45 AM
+322,86,tubifex worms,4:47 PM
+323,849,bloodworms,10:06 PM
+324,574,tubifex worms,8:53 AM
+325,26,freeze-dried,4:54 AM
+326,260,brine shrimp,12:01 AM
+327,648,brine shrimp,2:02 AM
+328,405,pellets,2:12 AM
+329,59,bloodworms,4:37 PM
+330,975,live worms,5:17 AM
+331,981,freeze-dried,7:38 PM
+332,333,tubifex worms,7:19 PM
+333,926,krill,5:30 AM
+334,654,flakes,11:53 PM
+335,831,mosquito larvae,2:56 PM
+336,434,freeze-dried,12:10 AM
+337,440,pellets,5:42 AM
+338,197,tubifex worms,12:39 PM
+339,657,pellets,6:34 PM
+340,601,mosquito larvae,5:05 AM
+341,64,bloodworms,11:24 PM
+342,999,bloodworms,4:14 PM
+343,278,vegetables,11:22 AM
+344,352,vegetables,3:02 AM
+345,692,tubifex worms,12:58 PM
+346,726,mosquito larvae,7:09 PM
+347,487,live worms,6:35 PM
+348,741,live worms,3:47 PM
+349,543,pellets,7:42 PM
+350,69,bloodworms,5:26 PM
+351,894,vegetables,8:41 AM
+352,30,flakes,4:36 AM
+353,201,pellets,4:20 PM
+354,926,freeze-dried,12:40 AM
+355,836,vegetables,8:28 PM
+356,816,live worms,10:09 PM
+357,769,pellets,3:44 AM
+358,431,pellets,12:39 AM
+359,414,flakes,9:50 AM
+360,455,freeze-dried,7:41 AM
+361,265,pellets,11:16 AM
+362,634,flakes,8:04 PM
+363,418,vegetables,7:45 AM
+364,126,vegetables,7:42 AM
+365,830,pellets,12:50 PM
+366,8,tubifex worms,4:51 PM
+367,776,freeze-dried,3:09 PM
+368,375,flakes,6:05 AM
+369,495,bloodworms,6:20 PM
+370,715,krill,5:01 PM
+371,96,bloodworms,4:44 AM
+372,420,freeze-dried,10:42 AM
+373,214,flakes,4:43 AM
+374,201,mosquito larvae,10:45 PM
+375,908,live worms,12:54 PM
+376,409,flakes,8:22 AM
+377,433,brine shrimp,7:24 AM
+378,339,flakes,2:42 AM
+379,235,tubifex worms,12:02 PM
+380,978,pellets,6:48 PM
+381,865,flakes,9:13 AM
+382,292,brine shrimp,12:23 AM
+383,8,freeze-dried,5:46 PM
+384,142,mosquito larvae,11:07 AM
+385,925,tubifex worms,12:36 AM
+386,542,krill,5:55 PM
+387,767,bloodworms,6:00 AM
+388,53,tubifex worms,12:13 AM
+389,691,mosquito larvae,8:50 PM
+390,578,brine shrimp,1:21 AM
+391,328,tubifex worms,8:29 AM
+392,529,live worms,9:49 AM
+393,204,krill,7:26 PM
+394,85,krill,1:33 PM
+395,579,live worms,4:11 PM
+396,931,pellets,10:38 PM
+397,738,bloodworms,7:43 AM
+398,842,flakes,6:58 AM
+399,674,mosquito larvae,9:15 PM
+400,701,flakes,10:35 AM
+401,697,freeze-dried,1:06 AM
+402,88,pellets,6:50 AM
+403,548,freeze-dried,5:02 AM
+404,627,brine shrimp,6:28 AM
+405,86,pellets,6:56 PM
+406,202,krill,8:30 AM
+407,475,flakes,12:26 PM
+408,441,tubifex worms,6:04 PM
+409,609,flakes,8:15 PM
+410,89,pellets,2:58 PM
+411,474,live worms,9:15 AM
+412,669,krill,11:39 PM
+413,88,pellets,2:38 AM
+414,149,brine shrimp,12:17 PM
+415,477,pellets,5:29 AM
+416,749,pellets,4:43 AM
+417,496,tubifex worms,4:55 PM
+418,337,vegetables,10:28 AM
+419,661,bloodworms,12:01 PM
+420,764,vegetables,6:26 PM
+421,640,bloodworms,5:27 AM
+422,398,brine shrimp,9:05 PM
+423,628,live worms,7:19 PM
+424,672,freeze-dried,9:59 AM
+425,886,freeze-dried,4:24 AM
+426,593,pellets,11:33 PM
+427,740,pellets,2:07 AM
+428,857,pellets,8:19 AM
+429,801,krill,10:41 PM
+430,718,flakes,7:18 AM
+431,632,brine shrimp,8:41 AM
+432,903,live worms,1:03 PM
+433,598,krill,10:24 AM
+434,798,krill,9:13 AM
+435,675,mosquito larvae,12:23 AM
+436,469,tubifex worms,8:32 PM
+437,212,mosquito larvae,7:27 PM
+438,759,tubifex worms,9:09 AM
+439,799,flakes,4:43 PM
+440,724,vegetables,4:29 AM
+441,177,vegetables,10:29 PM
+442,68,flakes,5:13 PM
+443,652,mosquito larvae,4:45 AM
+444,361,pellets,5:52 PM
+445,960,bloodworms,2:01 AM
+446,84,freeze-dried,7:31 AM
+447,820,krill,2:18 AM
+448,114,bloodworms,12:24 PM
+449,535,vegetables,7:35 PM
+450,935,tubifex worms,4:43 PM
+451,214,brine shrimp,6:18 AM
+452,420,pellets,11:38 AM
+453,679,live worms,7:37 PM
+454,73,freeze-dried,5:21 PM
+455,221,pellets,2:02 PM
+456,636,vegetables,11:58 PM
+457,927,mosquito larvae,8:37 PM
+458,542,live worms,10:13 PM
+459,948,freeze-dried,4:56 AM
+460,340,flakes,1:33 PM
+461,315,tubifex worms,4:27 PM
+462,499,pellets,3:59 AM
+463,286,mosquito larvae,5:35 PM
+464,968,pellets,12:46 PM
+465,471,pellets,2:06 AM
+466,42,tubifex worms,4:25 AM
+467,222,tubifex worms,6:21 PM
+468,431,freeze-dried,11:05 AM
+469,653,bloodworms,9:34 PM
+470,698,flakes,3:00 PM
+471,412,freeze-dried,12:28 PM
+472,227,mosquito larvae,8:52 PM
+473,692,vegetables,6:10 AM
+474,542,live worms,3:10 PM
+475,226,krill,3:23 AM
+476,350,tubifex worms,2:06 AM
+477,400,bloodworms,7:44 PM
+478,727,pellets,3:36 PM
+479,188,bloodworms,10:36 AM
+480,407,vegetables,1:24 AM
+481,699,mosquito larvae,11:37 PM
+482,982,bloodworms,12:13 AM
+483,288,tubifex worms,5:20 PM
+484,41,krill,12:29 PM
+485,308,vegetables,10:48 AM
+486,216,brine shrimp,5:55 PM
+487,977,mosquito larvae,6:21 PM
+488,760,freeze-dried,3:31 PM
+489,530,tubifex worms,11:23 PM
+490,273,pellets,4:15 PM
+491,363,live worms,9:09 PM
+492,609,tubifex worms,8:50 PM
+493,862,bloodworms,8:25 PM
+494,796,tubifex worms,8:57 AM
+495,330,live worms,7:55 PM
+496,388,mosquito larvae,12:13 PM
+497,867,brine shrimp,12:35 PM
+498,229,live worms,5:23 PM
+499,145,flakes,2:55 AM
+500,598,freeze-dried,2:26 PM
+501,380,bloodworms,6:56 AM
+502,897,tubifex worms,6:32 PM
+503,754,mosquito larvae,1:01 AM
+504,258,tubifex worms,7:46 PM
+505,129,bloodworms,1:41 PM
+506,12,bloodworms,6:08 PM
+507,771,pellets,7:20 AM
+508,207,brine shrimp,10:55 PM
+509,971,vegetables,5:56 PM
+510,512,live worms,3:48 PM
+511,105,bloodworms,1:31 PM
+512,321,flakes,3:50 PM
+513,416,mosquito larvae,11:12 PM
+514,84,brine shrimp,9:21 AM
+515,318,vegetables,7:03 AM
+516,310,live worms,8:33 PM
+517,792,vegetables,12:41 AM
+518,964,freeze-dried,7:55 PM
+519,827,brine shrimp,5:27 AM
+520,153,bloodworms,12:19 AM
+521,747,vegetables,3:50 PM
+522,175,pellets,12:18 AM
+523,25,live worms,8:45 PM
+524,740,tubifex worms,4:19 PM
+525,818,flakes,2:52 AM
+526,98,pellets,11:21 AM
+527,832,flakes,11:00 PM
+528,181,krill,6:33 PM
+529,514,krill,3:21 AM
+530,507,live worms,11:27 PM
+531,143,flakes,10:26 PM
+532,467,krill,5:18 AM
+533,409,freeze-dried,7:33 PM
+534,837,mosquito larvae,6:19 PM
+535,608,krill,1:14 PM
+536,575,vegetables,10:51 PM
+537,127,brine shrimp,6:39 AM
+538,619,flakes,10:54 AM
+539,301,mosquito larvae,12:14 PM
+540,983,live worms,2:13 AM
+541,666,live worms,1:45 AM
+542,549,krill,5:20 AM
+543,811,pellets,7:09 PM
+544,369,brine shrimp,6:04 AM
+545,650,freeze-dried,10:10 PM
+546,243,pellets,2:45 AM
+547,628,live worms,10:10 AM
+548,651,live worms,6:26 PM
+549,182,krill,5:00 PM
+550,417,bloodworms,11:04 PM
+551,332,vegetables,10:40 PM
+552,415,tubifex worms,4:58 AM
+553,813,freeze-dried,1:18 PM
+554,829,pellets,3:16 PM
+555,89,vegetables,6:07 PM
+556,202,brine shrimp,12:32 AM
+557,834,mosquito larvae,10:39 AM
+558,372,krill,11:24 PM
+559,949,tubifex worms,3:44 AM
+560,896,pellets,8:49 PM
+561,447,tubifex worms,1:36 PM
+562,451,tubifex worms,7:07 PM
+563,6,vegetables,11:26 PM
+564,463,krill,3:34 PM
+565,547,krill,5:33 AM
+566,531,live worms,3:27 PM
+567,94,freeze-dried,5:26 AM
+568,456,mosquito larvae,7:29 PM
+569,649,vegetables,8:08 AM
+570,202,tubifex worms,12:29 PM
+571,481,live worms,8:04 AM
+572,177,pellets,12:21 AM
+573,771,brine shrimp,11:32 AM
+574,599,vegetables,9:58 PM
+575,125,tubifex worms,7:54 PM
+576,429,tubifex worms,6:12 AM
+577,164,vegetables,1:25 AM
+578,935,flakes,7:30 AM
+579,10,tubifex worms,7:03 PM
+580,397,brine shrimp,11:00 AM
+581,195,freeze-dried,1:40 PM
+582,338,bloodworms,6:56 PM
+583,808,pellets,1:08 AM
+584,75,flakes,1:53 AM
+585,50,krill,9:12 PM
+586,147,vegetables,5:30 PM
+587,614,pellets,3:19 PM
+588,485,krill,12:45 AM
+589,939,vegetables,10:17 AM
+590,222,freeze-dried,4:24 AM
+591,92,pellets,12:44 AM
+592,345,bloodworms,12:49 AM
+593,56,live worms,5:22 PM
+594,817,bloodworms,2:54 AM
+595,712,brine shrimp,6:29 PM
+596,299,mosquito larvae,2:33 PM
+597,481,bloodworms,4:45 AM
+598,277,mosquito larvae,8:54 AM
+599,682,vegetables,11:30 AM
+600,574,freeze-dried,1:47 PM
+601,830,brine shrimp,11:33 AM
+602,239,freeze-dried,10:05 AM
+603,133,freeze-dried,7:25 AM
+604,593,pellets,3:26 PM
+605,524,tubifex worms,2:12 PM
+606,236,krill,12:43 PM
+607,447,mosquito larvae,2:09 AM
+608,881,bloodworms,11:58 AM
+609,842,brine shrimp,4:58 AM
+610,224,bloodworms,7:37 AM
+611,884,flakes,12:11 AM
+612,157,flakes,11:51 PM
+613,888,freeze-dried,5:41 PM
+614,846,live worms,12:01 PM
+615,501,freeze-dried,12:08 PM
+616,260,vegetables,11:54 PM
+617,343,brine shrimp,4:18 AM
+618,673,flakes,2:47 PM
+619,909,live worms,12:32 AM
+620,298,freeze-dried,6:47 PM
+621,215,bloodworms,3:47 AM
+622,747,mosquito larvae,12:12 AM
+623,760,flakes,8:15 AM
+624,182,freeze-dried,9:01 PM
+625,719,mosquito larvae,3:48 PM
+626,980,brine shrimp,9:31 PM
+627,137,vegetables,5:43 PM
+628,14,mosquito larvae,11:18 AM
+629,480,pellets,9:57 PM
+630,85,flakes,2:52 AM
+631,461,flakes,5:37 PM
+632,150,vegetables,4:17 AM
+633,864,pellets,5:47 PM
+634,54,freeze-dried,7:21 PM
+635,105,krill,7:56 AM
+636,309,live worms,6:23 AM
+637,167,bloodworms,11:46 AM
+638,110,flakes,4:34 PM
+639,60,krill,6:29 PM
+640,453,krill,12:05 AM
+641,721,tubifex worms,4:35 PM
+642,138,live worms,7:54 PM
+643,975,mosquito larvae,12:39 PM
+644,341,pellets,8:48 AM
+645,113,krill,4:50 PM
+646,363,pellets,3:19 AM
+647,229,tubifex worms,7:38 AM
+648,71,live worms,10:05 PM
+649,700,vegetables,11:42 PM
+650,693,vegetables,7:35 AM
+651,347,live worms,10:00 PM
+652,524,freeze-dried,1:57 PM
+653,932,freeze-dried,6:38 PM
+654,958,bloodworms,7:23 PM
+655,190,tubifex worms,1:30 PM
+656,825,freeze-dried,3:29 AM
+657,246,vegetables,8:59 PM
+658,323,mosquito larvae,4:02 PM
+659,623,tubifex worms,8:28 AM
+660,643,freeze-dried,11:39 AM
+661,219,mosquito larvae,1:59 AM
+662,930,freeze-dried,12:21 PM
+663,935,live worms,4:03 AM
+664,609,freeze-dried,4:25 AM
+665,692,flakes,4:39 PM
+666,375,krill,6:36 AM
+667,127,vegetables,3:05 AM
+668,264,live worms,1:35 AM
+669,851,bloodworms,4:43 AM
+670,938,freeze-dried,12:01 PM
+671,279,vegetables,12:10 AM
+672,709,krill,7:24 AM
+673,485,live worms,10:50 PM
+674,425,vegetables,10:53 AM
+675,116,pellets,9:53 PM
+676,933,vegetables,10:12 PM
+677,732,tubifex worms,2:40 PM
+678,92,vegetables,12:43 PM
+679,542,live worms,3:14 AM
+680,199,mosquito larvae,12:49 PM
+681,627,krill,12:47 PM
+682,818,tubifex worms,4:42 PM
+683,587,bloodworms,8:51 AM
+684,14,pellets,9:15 PM
+685,97,bloodworms,5:17 AM
+686,799,live worms,10:48 PM
+687,418,vegetables,10:39 PM
+688,385,flakes,10:40 AM
+689,727,bloodworms,8:39 AM
+690,243,mosquito larvae,9:01 PM
+691,456,bloodworms,7:00 PM
+692,84,tubifex worms,4:16 AM
+693,754,mosquito larvae,4:32 PM
+694,723,bloodworms,4:44 PM
+695,606,freeze-dried,7:43 PM
+696,964,bloodworms,3:48 AM
+697,426,freeze-dried,7:29 AM
+698,711,krill,5:14 PM
+699,159,vegetables,10:55 PM
+700,383,flakes,12:53 PM
+701,820,bloodworms,10:50 AM
+702,396,tubifex worms,5:27 AM
+703,62,flakes,10:48 PM
+704,400,brine shrimp,9:49 AM
+705,903,krill,12:34 PM
+706,846,bloodworms,8:19 AM
+707,860,live worms,8:35 AM
+708,350,live worms,8:54 PM
+709,110,freeze-dried,7:50 PM
+710,881,freeze-dried,2:00 AM
+711,769,pellets,9:10 AM
+712,657,pellets,6:08 AM
+713,579,brine shrimp,2:57 PM
+714,749,live worms,6:37 PM
+715,860,krill,10:43 PM
+716,146,vegetables,4:37 PM
+717,109,mosquito larvae,4:21 PM
+718,963,pellets,11:57 AM
+719,828,freeze-dried,9:11 PM
+720,222,tubifex worms,8:16 PM
+721,594,krill,5:08 PM
+722,555,flakes,4:49 AM
+723,344,pellets,10:04 PM
+724,408,live worms,3:08 AM
+725,707,vegetables,5:10 PM
+726,456,pellets,3:04 PM
+727,257,mosquito larvae,11:58 PM
+728,249,pellets,7:25 AM
+729,554,freeze-dried,11:21 AM
+730,127,krill,10:47 AM
+731,130,tubifex worms,1:22 PM
+732,590,flakes,1:29 AM
+733,9,bloodworms,11:16 PM
+734,602,live worms,3:31 AM
+735,647,freeze-dried,6:35 AM
+736,71,mosquito larvae,6:04 AM
+737,97,flakes,1:44 PM
+738,393,brine shrimp,7:39 AM
+739,401,tubifex worms,3:41 PM
+740,274,krill,7:01 AM
+741,394,live worms,6:47 AM
+742,568,mosquito larvae,7:11 PM
+743,510,vegetables,12:16 PM
+744,191,pellets,4:09 AM
+745,696,brine shrimp,11:56 PM
+746,30,vegetables,9:45 AM
+747,679,live worms,8:19 AM
+748,512,tubifex worms,11:37 AM
+749,993,freeze-dried,6:47 AM
+750,675,mosquito larvae,11:41 PM
+751,9,freeze-dried,9:48 AM
+752,278,brine shrimp,4:31 PM
+753,410,brine shrimp,12:44 AM
+754,391,flakes,12:14 PM
+755,515,tubifex worms,11:53 PM
+756,438,flakes,12:33 AM
+757,855,live worms,8:41 AM
+758,703,mosquito larvae,8:54 PM
+759,232,brine shrimp,11:51 PM
+760,401,freeze-dried,5:55 AM
+761,99,brine shrimp,4:37 AM
+762,822,brine shrimp,8:00 AM
+763,888,live worms,11:09 PM
+764,517,mosquito larvae,8:34 PM
+765,812,live worms,7:01 AM
+766,832,pellets,6:53 AM
+767,426,pellets,10:11 PM
+768,624,tubifex worms,8:13 PM
+769,709,brine shrimp,9:17 AM
+770,373,vegetables,9:40 PM
+771,602,brine shrimp,3:39 PM
+772,511,pellets,1:21 AM
+773,197,pellets,3:22 AM
+774,817,bloodworms,6:00 PM
+775,225,pellets,7:10 AM
+776,478,tubifex worms,7:52 PM
+777,641,bloodworms,8:57 PM
+778,915,freeze-dried,12:07 PM
+779,904,flakes,3:21 AM
+780,625,pellets,11:06 AM
+781,374,mosquito larvae,11:19 PM
+782,701,pellets,7:40 AM
+783,682,flakes,9:49 PM
+784,364,brine shrimp,7:06 AM
+785,893,brine shrimp,3:43 PM
+786,272,mosquito larvae,2:14 AM
+787,220,flakes,5:18 AM
+788,360,flakes,8:32 AM
+789,558,flakes,2:45 PM
+790,909,vegetables,8:30 AM
+791,452,live worms,3:34 PM
+792,312,flakes,8:29 AM
+793,564,pellets,1:15 PM
+794,121,krill,12:51 AM
+795,953,flakes,4:52 PM
+796,259,mosquito larvae,10:06 AM
+797,636,tubifex worms,12:10 PM
+798,999,brine shrimp,4:22 PM
+799,508,tubifex worms,7:06 PM
+800,770,live worms,2:25 PM
+801,305,krill,10:54 AM
+802,586,mosquito larvae,8:08 AM
+803,823,krill,8:20 AM
+804,347,freeze-dried,1:48 AM
+805,805,tubifex worms,10:51 PM
+806,342,vegetables,8:09 PM
+807,275,vegetables,2:16 AM
+808,916,mosquito larvae,10:08 PM
+809,53,pellets,9:59 AM
+810,344,tubifex worms,3:43 PM
+811,871,krill,7:41 PM
+812,792,freeze-dried,10:02 AM
+813,838,brine shrimp,4:45 PM
+814,65,live worms,2:59 PM
+815,203,krill,8:17 PM
+816,376,vegetables,1:30 AM
+817,71,pellets,7:20 PM
+818,671,tubifex worms,4:34 AM
+819,848,tubifex worms,9:31 AM
+820,503,vegetables,2:18 AM
+821,849,brine shrimp,8:49 AM
+822,566,pellets,2:43 AM
+823,254,pellets,10:03 PM
+824,226,pellets,10:15 PM
+825,38,tubifex worms,7:20 AM
+826,788,freeze-dried,5:01 AM
+827,961,mosquito larvae,12:04 AM
+828,965,pellets,12:03 PM
+829,114,mosquito larvae,7:34 PM
+830,94,bloodworms,9:52 PM
+831,350,freeze-dried,6:10 AM
+832,169,freeze-dried,3:38 AM
+833,821,freeze-dried,11:08 PM
+834,186,vegetables,3:01 PM
+835,338,flakes,4:21 AM
+836,92,brine shrimp,7:35 PM
+837,830,freeze-dried,5:44 PM
+838,902,bloodworms,4:51 AM
+839,594,brine shrimp,5:21 PM
+840,973,tubifex worms,1:14 PM
+841,314,brine shrimp,4:36 PM
+842,221,tubifex worms,3:55 AM
+843,198,tubifex worms,1:46 AM
+844,401,flakes,5:08 PM
+845,722,pellets,11:07 AM
+846,695,brine shrimp,2:39 PM
+847,828,krill,2:34 AM
+848,203,tubifex worms,3:23 PM
+849,96,live worms,6:21 PM
+850,472,tubifex worms,5:22 PM
+851,95,tubifex worms,7:34 AM
+852,575,live worms,2:15 AM
+853,376,freeze-dried,11:05 PM
+854,71,live worms,3:39 AM
+855,727,krill,10:29 AM
+856,943,brine shrimp,7:05 AM
+857,269,mosquito larvae,3:22 AM
+858,684,live worms,5:51 PM
+859,877,flakes,1:23 AM
+860,345,flakes,4:28 AM
+861,429,tubifex worms,11:14 AM
+862,410,tubifex worms,7:30 PM
+863,279,bloodworms,1:04 PM
+864,365,freeze-dried,2:07 AM
+865,634,bloodworms,7:50 PM
+866,701,freeze-dried,3:43 AM
+867,444,mosquito larvae,3:00 AM
+868,748,freeze-dried,9:01 AM
+869,88,vegetables,3:47 PM
+870,906,pellets,5:42 PM
+871,163,brine shrimp,7:18 PM
+872,545,vegetables,8:45 PM
+873,999,tubifex worms,3:58 PM
+874,574,bloodworms,4:27 PM
+875,390,freeze-dried,4:46 AM
+876,469,brine shrimp,3:56 AM
+877,569,pellets,5:34 PM
+878,58,freeze-dried,2:04 PM
+879,393,brine shrimp,1:44 AM
+880,293,freeze-dried,8:22 AM
+881,250,bloodworms,11:01 PM
+882,69,bloodworms,9:02 AM
+883,310,flakes,12:19 AM
+884,165,bloodworms,10:48 PM
+885,873,bloodworms,7:28 PM
+886,647,freeze-dried,8:57 PM
+887,452,flakes,7:59 PM
+888,325,krill,7:50 PM
+889,98,flakes,8:28 PM
+890,46,flakes,4:18 PM
+891,522,pellets,4:26 AM
+892,704,pellets,2:47 PM
+893,741,freeze-dried,11:23 PM
+894,32,pellets,5:46 PM
+895,675,mosquito larvae,7:05 PM
+896,494,freeze-dried,7:49 PM
+897,440,vegetables,11:02 AM
+898,322,brine shrimp,3:38 AM
+899,341,bloodworms,1:57 PM
+900,888,vegetables,2:58 PM
+901,742,flakes,4:54 AM
+902,911,krill,2:07 PM
+903,416,flakes,9:30 PM
+904,822,live worms,6:58 AM
+905,493,bloodworms,4:09 AM
+906,176,krill,12:17 AM
+907,146,live worms,6:14 AM
+908,237,freeze-dried,5:44 AM
+909,44,krill,1:56 PM
+910,697,live worms,5:21 AM
+911,805,mosquito larvae,12:50 PM
+912,103,pellets,9:29 AM
+913,442,flakes,7:14 AM
+914,188,brine shrimp,11:44 PM
+915,602,krill,1:19 PM
+916,193,freeze-dried,11:52 PM
+917,51,tubifex worms,11:10 PM
+918,109,brine shrimp,4:20 AM
+919,907,vegetables,2:31 AM
+920,489,pellets,3:57 PM
+921,629,vegetables,11:24 PM
+922,154,brine shrimp,10:10 PM
+923,901,flakes,9:44 AM
+924,169,bloodworms,10:39 AM
+925,469,freeze-dried,10:26 PM
+926,751,mosquito larvae,8:54 AM
+927,226,vegetables,11:52 PM
+928,723,brine shrimp,9:23 PM
+929,338,tubifex worms,5:28 AM
+930,70,pellets,10:04 AM
+931,994,flakes,8:02 PM
+932,55,tubifex worms,8:45 AM
+933,599,mosquito larvae,2:25 AM
+934,525,bloodworms,7:52 PM
+935,372,pellets,3:44 PM
+936,63,vegetables,5:46 AM
+937,186,live worms,8:20 AM
+938,581,krill,6:38 AM
+939,739,flakes,12:21 AM
+940,963,pellets,1:43 AM
+941,679,freeze-dried,6:33 AM
+942,358,vegetables,11:56 AM
+943,711,krill,8:53 PM
+944,338,flakes,12:24 PM
+945,571,pellets,6:59 PM
+946,632,krill,3:14 PM
+947,91,flakes,6:27 PM
+948,452,bloodworms,8:46 AM
+949,132,tubifex worms,8:32 PM
+950,241,tubifex worms,4:15 PM
+951,9,bloodworms,3:09 AM
+952,580,bloodworms,8:47 PM
+953,797,brine shrimp,4:05 AM
+954,991,tubifex worms,6:25 AM
+955,93,freeze-dried,7:48 AM
+956,196,bloodworms,4:58 AM
+957,766,flakes,12:16 PM
+958,602,bloodworms,3:49 PM
+959,107,tubifex worms,10:56 PM
+960,366,bloodworms,2:27 AM
+961,838,live worms,10:07 PM
+962,115,freeze-dried,4:42 AM
+963,439,brine shrimp,9:29 AM
+964,844,mosquito larvae,9:00 AM
+965,629,live worms,1:41 AM
+966,982,tubifex worms,12:11 AM
+967,397,krill,10:59 AM
+968,493,tubifex worms,7:29 PM
+969,393,tubifex worms,9:50 AM
+970,730,live worms,3:40 AM
+971,44,tubifex worms,5:46 AM
+972,275,krill,9:25 PM
+973,131,live worms,5:48 PM
+974,446,flakes,4:12 PM
+975,72,bloodworms,12:06 PM
+976,203,pellets,9:39 AM
+977,535,mosquito larvae,1:32 AM
+978,590,mosquito larvae,12:37 AM
+979,538,freeze-dried,1:09 AM
+980,661,krill,6:02 AM
+981,777,flakes,8:18 AM
+982,884,mosquito larvae,2:06 AM
+983,480,mosquito larvae,6:45 AM
+984,223,mosquito larvae,3:27 AM
+985,148,krill,8:37 AM
+986,935,tubifex worms,10:47 AM
+987,986,live worms,10:06 PM
+988,520,brine shrimp,1:08 PM
+989,11,bloodworms,7:31 AM
+990,309,freeze-dried,11:08 PM
+991,850,tubifex worms,12:51 AM
+992,224,bloodworms,3:32 PM
+993,320,vegetables,11:48 PM
+994,957,flakes,9:54 AM
+995,985,mosquito larvae,11:51 AM
+996,711,tubifex worms,7:01 AM
+997,874,tubifex worms,12:44 PM
+998,129,pellets,4:45 PM
+999,929,freeze-dried,3:02 AM
+1000,126,freeze-dried,1:46 PM

@@ -1,50 +1,4000 @@
-1,pez dorado,arowana
-2,pez payaso,cetáceo
-3,pez espada,cetáceo
-4,pez globo,salmon
-5,pez ángel,danio
-6,pez gato,danio
-7,pez mariposa,cetáceo
-8,pez loro,pleco
-9,pez cirujano,platy
-10,pez betta,platy
-11,pez arcoíris,guppy
-12,pez tetra,angel fish
-13,pez disco,trout
-14,pez cebra,cetáceo
-15,pez neón,gourami
-16,pez platy,cetáceo
-17,pez molly,rainbow fish
-18,pez guppy,gourami
-19,pez cetáceo,pufferfish
-20,pez ángel emperador,cetáceo
-21,pez ángel francés,guppy
-22,pez ángel enano,tetra
-23,pez ángel real,swordtail
-24,pez ángel reina,gourami
-25,pez ángel regal,cetáceo
-26,pez ángel imperador,tiburon
-27,pez ángel francés,guppy
-28,pez ángel enano,danio
-29,pez ángel real,angel fish
-30,pez ángel reina,mamifero
-31,pez ángel regal,cetáceo
-32,pez ángel imperador,betta
-33,pez ángel francés,rainbow fish
-34,pez ángel enano,angel fish
-35,pez ángel real,swordtail
-36,pez ángel reina,cetáceo
-37,pez ángel regal,catfish
-38,pez ángel imperador,rainbow fish
-39,pez ángel francés,cetáceo
-40,pez ángel enano,angel fish
-41,pez ángel real,pufferfish
-42,pez ángel reina,salmon
-43,pez ángel regal,cetáceo
-44,pez ángel imperador,catfish
-45,pez ángel francés,discus
-46,pez ángel enano,neon tetra
-47,pez ángel real,trout
-48,pez ángel reina,pleco
-49,pez ángel regal,tetra
-50,pez ángel imperador,guppy
+1,Marlin,cetáceo
+2,Finley,cetáceo
+3,Nemo,pufferfish
+4,Squirt,cetáceo
+5,Gill,cetáceo
+6,Coral,molly
+7,Marlin,tiburon
+8,Dory,cetáceo
+9,Flounder,cichlid
+10,Nemo,rasbora
+11,Coral,tiburon
+12,Nemo,cetaceo
+13,Marlin,danio
+14,Flounder,cetáceo
+15,Dory,neon tetra
+16,Pearl,tetra
+17,Coral,tiburon
+18,Dory,salmon
+19,Marlin,mamifero
+20,Pearl,cetáceo
+21,Bubbles,cetáceo
+22,Finley,cetaceo
+23,Squirt,catfish
+24,Finley,tetra
+25,Dory,guppy
+26,Coral,tiburon
+27,Finley,cichlid
+28,Coral,danio
+29,Nemo,neon tetra
+30,Gill,cetáceo
+31,Finley,cetaceo
+32,Squirt,discus
+33,Dory,killifish
+34,Dory,goldfish
+35,Finley,trout
+36,Finley,trout
+37,Gill,arowana
+38,Dory,cichlid
+39,Coral,killifish
+40,Bubbles,discus
+41,Flounder,tiburon
+42,Nemo,angel fish
+43,Nemo,swordtail
+44,Coral,barb
+45,Coral,betta
+46,Gill,gourami
+47,Dory,trout
+48,Pearl,anchovy
+49,Finley,trout
+50,Nemo,tetra
+51,Coral,catfish
+52,Flounder,danio
+53,Finley,danio
+54,Marlin,arowana
+55,Nemo,molly
+56,Coral,mamifero
+57,Coral,anchovy
+58,Finley,salmon
+59,Coral,mamifero
+60,Finley,cichlid
+61,Coral,cichlid
+62,Flounder,salmon
+63,Pearl,pufferfish
+64,Finley,anchovy
+65,Coral,barb
+66,Gill,rasbora
+67,Finley,molly
+68,Nemo,tiburon
+69,Squirt,cetáceo
+70,Dory,neon tetra
+71,Nemo,cetáceo
+72,Pearl,guppy
+73,Dory,molly
+74,Bubbles,trout
+75,Coral,angel fish
+76,Gill,rainbow fish
+77,Marlin,rainbow fish
+78,Flounder,swordtail
+79,Dory,anchovy
+80,Squirt,rainbow fish
+81,Dory,rasbora
+82,Dory,cetáceo
+83,Squirt,catfish
+84,Bubbles,swordtail
+85,Bubbles,pufferfish
+86,Marlin,rasbora
+87,Finley,trout
+88,Flounder,angel fish
+89,Pearl,trout
+90,Coral,danio
+91,Finley,rasbora
+92,Gill,swordtail
+93,Gill,discus
+94,Finley,mamifero
+95,Pearl,pufferfish
+96,Squirt,mamifero
+97,Squirt,barb
+98,Squirt,killifish
+99,Marlin,swordtail
+100,Marlin,cetaceo
+101,Bubbles,betta
+102,Gill,koi
+103,Nemo,guppy
+104,Bubbles,catfish
+105,Dory,koi
+106,Pearl,salmon
+107,Gill,rainbow fish
+108,Dory,rasbora
+109,Marlin,molly
+110,Pearl,cetaceo
+111,Flounder,gourami
+112,Flounder,koi
+113,Pearl,catfish
+114,Nemo,rasbora
+115,Nemo,cichlid
+116,Bubbles,rasbora
+117,Pearl,betta
+118,Nemo,guppy
+119,Marlin,gourami
+120,Marlin,tiburon
+121,Nemo,tetra
+122,Squirt,gourami
+123,Dory,goldfish
+124,Dory,killifish
+125,Marlin,danio
+126,Dory,guppy
+127,Bubbles,gourami
+128,Coral,barb
+129,Marlin,anchovy
+130,Gill,tiburon
+131,Finley,pufferfish
+132,Squirt,cetáceo
+133,Bubbles,neon tetra
+134,Finley,swordtail
+135,Bubbles,angel fish
+136,Finley,betta
+137,Pearl,cichlid
+138,Squirt,danio
+139,Pearl,tetra
+140,Bubbles,rasbora
+141,Gill,neon tetra
+142,Gill,swordtail
+143,Squirt,anchovy
+144,Gill,tiburon
+145,Finley,rainbow fish
+146,Bubbles,neon tetra
+147,Pearl,gourami
+148,Coral,danio
+149,Pearl,mamifero
+150,Gill,tetra
+151,Dory,arowana
+152,Finley,tetra
+153,Coral,catfish
+154,Coral,cetaceo
+155,Nemo,cetaceo
+156,Dory,barb
+157,Dory,koi
+158,Coral,danio
+159,Flounder,rasbora
+160,Dory,betta
+161,Coral,killifish
+162,Flounder,betta
+163,Dory,koi
+164,Gill,arowana
+165,Coral,salmon
+166,Nemo,guppy
+167,Flounder,arowana
+168,Coral,danio
+169,Dory,rainbow fish
+170,Gill,tetra
+171,Coral,molly
+172,Marlin,neon tetra
+173,Dory,tiburon
+174,Finley,gourami
+175,Pearl,angel fish
+176,Nemo,tiburon
+177,Pearl,trout
+178,Flounder,goldfish
+179,Gill,cetaceo
+180,Dory,molly
+181,Bubbles,salmon
+182,Nemo,betta
+183,Dory,guppy
+184,Marlin,catfish
+185,Gill,mamifero
+186,Finley,tetra
+187,Nemo,gourami
+188,Flounder,discus
+189,Flounder,trout
+190,Flounder,barb
+191,Pearl,anchovy
+192,Flounder,neon tetra
+193,Nemo,angel fish
+194,Dory,trout
+195,Gill,danio
+196,Bubbles,tiburon
+197,Marlin,neon tetra
+198,Squirt,salmon
+199,Marlin,mamifero
+200,Gill,killifish
+201,Coral,guppy
+202,Bubbles,cetáceo
+203,Squirt,molly
+204,Finley,anchovy
+205,Pearl,tiburon
+206,Nemo,salmon
+207,Marlin,killifish
+208,Coral,anchovy
+209,Flounder,trout
+210,Gill,danio
+211,Finley,gourami
+212,Marlin,gourami
+213,Gill,arowana
+214,Finley,tiburon
+215,Gill,discus
+216,Squirt,salmon
+217,Flounder,trout
+218,Coral,discus
+219,Coral,neon tetra
+220,Bubbles,goldfish
+221,Pearl,neon tetra
+222,Finley,tiburon
+223,Flounder,tiburon
+224,Pearl,trout
+225,Gill,pufferfish
+226,Dory,rasbora
+227,Flounder,anchovy
+228,Nemo,mamifero
+229,Marlin,cetaceo
+230,Bubbles,salmon
+231,Dory,tiburon
+232,Coral,cetáceo
+233,Coral,neon tetra
+234,Bubbles,cetaceo
+235,Dory,cetaceo
+236,Marlin,catfish
+237,Flounder,cichlid
+238,Flounder,betta
+239,Bubbles,koi
+240,Bubbles,goldfish
+241,Marlin,trout
+242,Squirt,swordtail
+243,Dory,swordtail
+244,Nemo,barb
+245,Gill,tetra
+246,Gill,cetáceo
+247,Dory,swordtail
+248,Coral,discus
+249,Coral,salmon
+250,Marlin,guppy
+251,Squirt,discus
+252,Marlin,cetáceo
+253,Coral,cichlid
+254,Marlin,salmon
+255,Finley,molly
+256,Flounder,danio
+257,Pearl,salmon
+258,Pearl,swordtail
+259,Marlin,barb
+260,Squirt,trout
+261,Gill,cetáceo
+262,Bubbles,neon tetra
+263,Gill,arowana
+264,Pearl,goldfish
+265,Pearl,mamifero
+266,Coral,arowana
+267,Squirt,rainbow fish
+268,Squirt,koi
+269,Bubbles,swordtail
+270,Marlin,salmon
+271,Squirt,rainbow fish
+272,Dory,anchovy
+273,Marlin,danio
+274,Pearl,pufferfish
+275,Bubbles,salmon
+276,Flounder,pufferfish
+277,Pearl,trout
+278,Nemo,trout
+279,Squirt,cetáceo
+280,Nemo,mamifero
+281,Marlin,gourami
+282,Coral,cichlid
+283,Dory,killifish
+284,Flounder,gourami
+285,Marlin,goldfish
+286,Coral,anchovy
+287,Coral,discus
+288,Bubbles,salmon
+289,Squirt,mamifero
+290,Finley,discus
+291,Marlin,anchovy
+292,Nemo,guppy
+293,Coral,tetra
+294,Gill,salmon
+295,Gill,catfish
+296,Nemo,arowana
+297,Bubbles,barb
+298,Gill,neon tetra
+299,Bubbles,rainbow fish
+300,Gill,trout
+301,Nemo,trout
+302,Dory,killifish
+303,Coral,cichlid
+304,Pearl,anchovy
+305,Gill,betta
+306,Squirt,cetáceo
+307,Marlin,tetra
+308,Finley,anchovy
+309,Coral,neon tetra
+310,Flounder,swordtail
+311,Nemo,cichlid
+312,Dory,koi
+313,Coral,rainbow fish
+314,Flounder,killifish
+315,Pearl,swordtail
+316,Marlin,swordtail
+317,Gill,catfish
+318,Coral,pufferfish
+319,Flounder,cetaceo
+320,Gill,cetaceo
+321,Pearl,tetra
+322,Finley,cetáceo
+323,Bubbles,arowana
+324,Pearl,rainbow fish
+325,Dory,gourami
+326,Gill,rasbora
+327,Dory,barb
+328,Finley,cetaceo
+329,Finley,discus
+330,Pearl,arowana
+331,Gill,molly
+332,Pearl,trout
+333,Gill,swordtail
+334,Gill,goldfish
+335,Pearl,killifish
+336,Marlin,discus
+337,Coral,swordtail
+338,Bubbles,cichlid
+339,Bubbles,koi
+340,Squirt,trout
+341,Dory,barb
+342,Dory,rainbow fish
+343,Flounder,pufferfish
+344,Dory,angel fish
+345,Squirt,swordtail
+346,Finley,cetáceo
+347,Marlin,gourami
+348,Gill,mamifero
+349,Nemo,guppy
+350,Nemo,rasbora
+351,Nemo,pufferfish
+352,Squirt,guppy
+353,Squirt,salmon
+354,Squirt,killifish
+355,Dory,tiburon
+356,Marlin,pufferfish
+357,Bubbles,discus
+358,Marlin,trout
+359,Gill,catfish
+360,Coral,rasbora
+361,Nemo,cetaceo
+362,Gill,cetaceo
+363,Flounder,goldfish
+364,Squirt,tiburon
+365,Pearl,cichlid
+366,Flounder,trout
+367,Nemo,cetáceo
+368,Pearl,guppy
+369,Coral,anchovy
+370,Finley,gourami
+371,Marlin,tiburon
+372,Pearl,gourami
+373,Flounder,goldfish
+374,Finley,cetáceo
+375,Coral,betta
+376,Coral,danio
+377,Squirt,betta
+378,Squirt,goldfish
+379,Dory,pufferfish
+380,Nemo,cetaceo
+381,Flounder,gourami
+382,Bubbles,neon tetra
+383,Finley,danio
+384,Nemo,discus
+385,Bubbles,pufferfish
+386,Finley,gourami
+387,Nemo,rasbora
+388,Gill,cetáceo
+389,Bubbles,swordtail
+390,Finley,trout
+391,Bubbles,catfish
+392,Dory,rasbora
+393,Finley,pufferfish
+394,Flounder,molly
+395,Marlin,cetáceo
+396,Flounder,swordtail
+397,Gill,anchovy
+398,Dory,guppy
+399,Nemo,mamifero
+400,Marlin,discus
+401,Gill,arowana
+402,Flounder,angel fish
+403,Gill,trout
+404,Marlin,guppy
+405,Dory,molly
+406,Dory,goldfish
+407,Flounder,cetaceo
+408,Squirt,angel fish
+409,Pearl,trout
+410,Gill,trout
+411,Dory,goldfish
+412,Coral,neon tetra
+413,Bubbles,salmon
+414,Coral,catfish
+415,Marlin,swordtail
+416,Squirt,anchovy
+417,Coral,arowana
+418,Nemo,betta
+419,Pearl,killifish
+420,Squirt,rainbow fish
+421,Dory,barb
+422,Finley,molly
+423,Dory,barb
+424,Nemo,cetáceo
+425,Coral,molly
+426,Gill,rainbow fish
+427,Dory,cichlid
+428,Flounder,arowana
+429,Gill,angel fish
+430,Bubbles,goldfish
+431,Dory,pufferfish
+432,Dory,trout
+433,Squirt,catfish
+434,Finley,guppy
+435,Coral,anchovy
+436,Dory,pufferfish
+437,Dory,tiburon
+438,Dory,trout
+439,Bubbles,molly
+440,Squirt,trout
+441,Gill,betta
+442,Gill,tetra
+443,Squirt,killifish
+444,Marlin,pufferfish
+445,Gill,rainbow fish
+446,Pearl,swordtail
+447,Nemo,guppy
+448,Pearl,trout
+449,Nemo,cetáceo
+450,Dory,anchovy
+451,Flounder,anchovy
+452,Bubbles,arowana
+453,Flounder,cetáceo
+454,Coral,cichlid
+455,Squirt,trout
+456,Pearl,barb
+457,Gill,neon tetra
+458,Finley,killifish
+459,Flounder,catfish
+460,Pearl,koi
+461,Nemo,swordtail
+462,Finley,angel fish
+463,Marlin,swordtail
+464,Marlin,rasbora
+465,Bubbles,cichlid
+466,Bubbles,koi
+467,Finley,gourami
+468,Dory,danio
+469,Squirt,koi
+470,Bubbles,angel fish
+471,Marlin,arowana
+472,Dory,cichlid
+473,Squirt,arowana
+474,Coral,barb
+475,Finley,rasbora
+476,Dory,anchovy
+477,Dory,trout
+478,Flounder,guppy
+479,Squirt,guppy
+480,Nemo,barb
+481,Nemo,swordtail
+482,Pearl,cichlid
+483,Dory,discus
+484,Gill,goldfish
+485,Pearl,anchovy
+486,Nemo,discus
+487,Pearl,pufferfish
+488,Flounder,neon tetra
+489,Bubbles,cetáceo
+490,Flounder,cetáceo
+491,Finley,cetaceo
+492,Bubbles,gourami
+493,Bubbles,tetra
+494,Flounder,cichlid
+495,Squirt,cichlid
+496,Finley,molly
+497,Flounder,guppy
+498,Flounder,betta
+499,Flounder,salmon
+500,Pearl,rasbora
+501,Bubbles,goldfish
+502,Bubbles,neon tetra
+503,Squirt,neon tetra
+504,Coral,cetáceo
+505,Finley,tiburon
+506,Squirt,rainbow fish
+507,Finley,tiburon
+508,Gill,angel fish
+509,Finley,cetáceo
+510,Gill,discus
+511,Nemo,anchovy
+512,Bubbles,killifish
+513,Gill,cetáceo
+514,Gill,cichlid
+515,Nemo,pufferfish
+516,Squirt,koi
+517,Coral,molly
+518,Bubbles,rasbora
+519,Finley,killifish
+520,Finley,mamifero
+521,Coral,rasbora
+522,Dory,cetáceo
+523,Coral,pufferfish
+524,Finley,salmon
+525,Gill,cetáceo
+526,Coral,betta
+527,Flounder,goldfish
+528,Flounder,danio
+529,Finley,cetáceo
+530,Nemo,killifish
+531,Squirt,anchovy
+532,Dory,angel fish
+533,Bubbles,pufferfish
+534,Gill,killifish
+535,Flounder,barb
+536,Finley,trout
+537,Dory,angel fish
+538,Flounder,angel fish
+539,Marlin,salmon
+540,Coral,killifish
+541,Dory,barb
+542,Dory,rasbora
+543,Nemo,danio
+544,Squirt,trout
+545,Pearl,pufferfish
+546,Bubbles,cichlid
+547,Dory,betta
+548,Bubbles,mamifero
+549,Gill,goldfish
+550,Gill,rasbora
+551,Pearl,betta
+552,Marlin,discus
+553,Gill,discus
+554,Dory,barb
+555,Squirt,neon tetra
+556,Nemo,cetáceo
+557,Dory,neon tetra
+558,Bubbles,gourami
+559,Coral,tiburon
+560,Pearl,salmon
+561,Flounder,cetaceo
+562,Pearl,neon tetra
+563,Squirt,barb
+564,Finley,catfish
+565,Gill,gourami
+566,Gill,danio
+567,Squirt,cetaceo
+568,Flounder,tetra
+569,Flounder,tiburon
+570,Flounder,discus
+571,Marlin,neon tetra
+572,Flounder,tetra
+573,Marlin,gourami
+574,Bubbles,rainbow fish
+575,Gill,salmon
+576,Finley,salmon
+577,Bubbles,mamifero
+578,Gill,cetáceo
+579,Flounder,swordtail
+580,Pearl,molly
+581,Flounder,guppy
+582,Nemo,arowana
+583,Bubbles,neon tetra
+584,Finley,rainbow fish
+585,Dory,mamifero
+586,Gill,discus
+587,Coral,mamifero
+588,Dory,molly
+589,Gill,killifish
+590,Gill,pufferfish
+591,Finley,cichlid
+592,Flounder,tetra
+593,Finley,tiburon
+594,Coral,catfish
+595,Squirt,cetáceo
+596,Finley,betta
+597,Finley,goldfish
+598,Squirt,anchovy
+599,Squirt,killifish
+600,Finley,tiburon
+601,Gill,cetaceo
+602,Dory,pufferfish
+603,Coral,anchovy
+604,Gill,tetra
+605,Finley,killifish
+606,Coral,betta
+607,Flounder,killifish
+608,Coral,guppy
+609,Coral,barb
+610,Finley,goldfish
+611,Nemo,molly
+612,Dory,gourami
+613,Marlin,discus
+614,Nemo,cetáceo
+615,Pearl,rasbora
+616,Finley,tiburon
+617,Flounder,cetáceo
+618,Bubbles,neon tetra
+619,Marlin,pufferfish
+620,Gill,swordtail
+621,Marlin,salmon
+622,Coral,barb
+623,Finley,cetáceo
+624,Pearl,tiburon
+625,Bubbles,barb
+626,Finley,gourami
+627,Finley,anchovy
+628,Pearl,discus
+629,Pearl,rainbow fish
+630,Coral,molly
+631,Bubbles,swordtail
+632,Nemo,cetáceo
+633,Gill,goldfish
+634,Bubbles,discus
+635,Coral,rainbow fish
+636,Squirt,swordtail
+637,Gill,catfish
+638,Bubbles,rasbora
+639,Flounder,killifish
+640,Gill,anchovy
+641,Coral,arowana
+642,Dory,cetaceo
+643,Bubbles,tetra
+644,Flounder,killifish
+645,Flounder,betta
+646,Flounder,molly
+647,Nemo,tiburon
+648,Flounder,discus
+649,Gill,rainbow fish
+650,Gill,arowana
+651,Pearl,swordtail
+652,Marlin,betta
+653,Pearl,discus
+654,Pearl,discus
+655,Coral,gourami
+656,Marlin,cetáceo
+657,Dory,pufferfish
+658,Pearl,neon tetra
+659,Squirt,tetra
+660,Gill,neon tetra
+661,Finley,tetra
+662,Gill,angel fish
+663,Squirt,danio
+664,Nemo,neon tetra
+665,Pearl,killifish
+666,Gill,catfish
+667,Coral,molly
+668,Squirt,tetra
+669,Squirt,rainbow fish
+670,Nemo,tetra
+671,Marlin,rasbora
+672,Squirt,tiburon
+673,Marlin,tetra
+674,Gill,guppy
+675,Gill,molly
+676,Coral,danio
+677,Squirt,tetra
+678,Nemo,danio
+679,Gill,pufferfish
+680,Bubbles,discus
+681,Pearl,betta
+682,Pearl,betta
+683,Gill,koi
+684,Squirt,cichlid
+685,Gill,catfish
+686,Gill,mamifero
+687,Squirt,guppy
+688,Nemo,rasbora
+689,Pearl,tetra
+690,Gill,betta
+691,Marlin,arowana
+692,Coral,salmon
+693,Pearl,salmon
+694,Pearl,killifish
+695,Bubbles,arowana
+696,Bubbles,trout
+697,Flounder,angel fish
+698,Squirt,salmon
+699,Flounder,tetra
+700,Coral,cetaceo
+701,Flounder,neon tetra
+702,Flounder,goldfish
+703,Marlin,rainbow fish
+704,Dory,mamifero
+705,Coral,barb
+706,Squirt,neon tetra
+707,Coral,tetra
+708,Dory,guppy
+709,Squirt,molly
+710,Finley,betta
+711,Coral,molly
+712,Nemo,catfish
+713,Nemo,pufferfish
+714,Nemo,neon tetra
+715,Flounder,salmon
+716,Gill,tetra
+717,Bubbles,tiburon
+718,Bubbles,guppy
+719,Coral,angel fish
+720,Finley,mamifero
+721,Bubbles,tetra
+722,Dory,angel fish
+723,Bubbles,pufferfish
+724,Coral,cetáceo
+725,Pearl,guppy
+726,Dory,barb
+727,Flounder,koi
+728,Finley,swordtail
+729,Squirt,discus
+730,Flounder,swordtail
+731,Bubbles,cetáceo
+732,Marlin,tetra
+733,Bubbles,cetáceo
+734,Gill,salmon
+735,Squirt,salmon
+736,Coral,molly
+737,Bubbles,killifish
+738,Bubbles,arowana
+739,Marlin,goldfish
+740,Finley,catfish
+741,Pearl,angel fish
+742,Nemo,cetaceo
+743,Bubbles,molly
+744,Pearl,cetáceo
+745,Marlin,cichlid
+746,Gill,cichlid
+747,Marlin,arowana
+748,Marlin,catfish
+749,Dory,rainbow fish
+750,Bubbles,anchovy
+751,Finley,trout
+752,Gill,cichlid
+753,Pearl,cetáceo
+754,Finley,angel fish
+755,Dory,betta
+756,Flounder,cichlid
+757,Gill,tetra
+758,Pearl,angel fish
+759,Coral,guppy
+760,Finley,angel fish
+761,Nemo,betta
+762,Gill,tiburon
+763,Squirt,rasbora
+764,Dory,rasbora
+765,Dory,arowana
+766,Squirt,gourami
+767,Marlin,rasbora
+768,Gill,cetaceo
+769,Nemo,salmon
+770,Marlin,catfish
+771,Bubbles,molly
+772,Marlin,koi
+773,Squirt,tetra
+774,Bubbles,angel fish
+775,Coral,guppy
+776,Squirt,cetáceo
+777,Dory,goldfish
+778,Dory,rainbow fish
+779,Bubbles,pufferfish
+780,Dory,cetáceo
+781,Coral,rasbora
+782,Coral,killifish
+783,Flounder,pufferfish
+784,Coral,tiburon
+785,Nemo,danio
+786,Gill,goldfish
+787,Bubbles,catfish
+788,Bubbles,catfish
+789,Finley,cetáceo
+790,Gill,neon tetra
+791,Dory,discus
+792,Dory,goldfish
+793,Dory,catfish
+794,Flounder,cichlid
+795,Finley,angel fish
+796,Bubbles,danio
+797,Dory,rasbora
+798,Flounder,gourami
+799,Dory,cetáceo
+800,Finley,tiburon
+801,Coral,salmon
+802,Coral,arowana
+803,Pearl,barb
+804,Coral,barb
+805,Nemo,killifish
+806,Coral,mamifero
+807,Marlin,discus
+808,Finley,barb
+809,Squirt,molly
+810,Bubbles,gourami
+811,Nemo,arowana
+812,Pearl,neon tetra
+813,Pearl,tetra
+814,Coral,swordtail
+815,Dory,catfish
+816,Pearl,anchovy
+817,Squirt,gourami
+818,Marlin,cetaceo
+819,Pearl,guppy
+820,Flounder,arowana
+821,Pearl,tetra
+822,Dory,danio
+823,Nemo,catfish
+824,Coral,pufferfish
+825,Flounder,danio
+826,Dory,cichlid
+827,Squirt,killifish
+828,Bubbles,guppy
+829,Squirt,rainbow fish
+830,Bubbles,cetáceo
+831,Finley,rainbow fish
+832,Squirt,cetáceo
+833,Flounder,trout
+834,Gill,cichlid
+835,Squirt,salmon
+836,Coral,pufferfish
+837,Pearl,goldfish
+838,Marlin,cetaceo
+839,Bubbles,arowana
+840,Dory,goldfish
+841,Squirt,salmon
+842,Nemo,betta
+843,Flounder,cetáceo
+844,Nemo,trout
+845,Squirt,trout
+846,Coral,koi
+847,Marlin,salmon
+848,Nemo,gourami
+849,Nemo,killifish
+850,Dory,arowana
+851,Dory,cetaceo
+852,Bubbles,killifish
+853,Flounder,trout
+854,Flounder,goldfish
+855,Coral,mamifero
+856,Bubbles,discus
+857,Flounder,barb
+858,Dory,killifish
+859,Nemo,cetaceo
+860,Marlin,angel fish
+861,Finley,pufferfish
+862,Coral,salmon
+863,Coral,rasbora
+864,Gill,tiburon
+865,Bubbles,cetáceo
+866,Finley,cetáceo
+867,Dory,killifish
+868,Nemo,arowana
+869,Coral,anchovy
+870,Coral,danio
+871,Gill,cetaceo
+872,Marlin,koi
+873,Flounder,anchovy
+874,Pearl,rainbow fish
+875,Marlin,goldfish
+876,Flounder,trout
+877,Flounder,arowana
+878,Nemo,tetra
+879,Nemo,catfish
+880,Marlin,salmon
+881,Gill,tetra
+882,Bubbles,cichlid
+883,Coral,goldfish
+884,Pearl,cichlid
+885,Pearl,molly
+886,Dory,tiburon
+887,Pearl,koi
+888,Flounder,barb
+889,Pearl,rainbow fish
+890,Marlin,koi
+891,Pearl,discus
+892,Finley,salmon
+893,Coral,tetra
+894,Coral,danio
+895,Dory,salmon
+896,Flounder,anchovy
+897,Finley,cichlid
+898,Marlin,neon tetra
+899,Nemo,salmon
+900,Pearl,gourami
+901,Dory,cichlid
+902,Nemo,anchovy
+903,Squirt,swordtail
+904,Dory,molly
+905,Marlin,guppy
+906,Bubbles,neon tetra
+907,Finley,trout
+908,Gill,gourami
+909,Finley,betta
+910,Bubbles,arowana
+911,Nemo,tetra
+912,Flounder,tiburon
+913,Squirt,rainbow fish
+914,Coral,rainbow fish
+915,Flounder,pufferfish
+916,Pearl,rasbora
+917,Flounder,barb
+918,Coral,koi
+919,Squirt,swordtail
+920,Nemo,arowana
+921,Squirt,mamifero
+922,Squirt,barb
+923,Flounder,cetáceo
+924,Squirt,barb
+925,Nemo,catfish
+926,Marlin,neon tetra
+927,Flounder,mamifero
+928,Flounder,tiburon
+929,Finley,neon tetra
+930,Gill,swordtail
+931,Squirt,neon tetra
+932,Nemo,mamifero
+933,Gill,cetaceo
+934,Nemo,barb
+935,Coral,killifish
+936,Gill,arowana
+937,Gill,tetra
+938,Coral,molly
+939,Finley,gourami
+940,Squirt,goldfish
+941,Nemo,cichlid
+942,Marlin,molly
+943,Gill,killifish
+944,Gill,pufferfish
+945,Dory,anchovy
+946,Coral,koi
+947,Bubbles,salmon
+948,Finley,catfish
+949,Finley,swordtail
+950,Gill,danio
+951,Bubbles,trout
+952,Gill,catfish
+953,Squirt,neon tetra
+954,Flounder,goldfish
+955,Coral,salmon
+956,Pearl,pufferfish
+957,Dory,gourami
+958,Marlin,barb
+959,Gill,guppy
+960,Squirt,swordtail
+961,Nemo,pufferfish
+962,Bubbles,killifish
+963,Finley,mamifero
+964,Dory,tiburon
+965,Squirt,swordtail
+966,Nemo,danio
+967,Marlin,tetra
+968,Dory,arowana
+969,Finley,tiburon
+970,Marlin,gourami
+971,Nemo,killifish
+972,Marlin,anchovy
+973,Bubbles,koi
+974,Squirt,tetra
+975,Coral,discus
+976,Coral,rasbora
+977,Squirt,betta
+978,Marlin,gourami
+979,Squirt,discus
+980,Squirt,neon tetra
+981,Nemo,danio
+982,Flounder,tiburon
+983,Gill,swordtail
+984,Nemo,rainbow fish
+985,Flounder,trout
+986,Flounder,gourami
+987,Coral,tetra
+988,Bubbles,gourami
+989,Finley,discus
+990,Flounder,mamifero
+991,Dory,anchovy
+992,Pearl,anchovy
+993,Flounder,discus
+994,Dory,salmon
+995,Bubbles,rasbora
+996,Flounder,swordtail
+997,Finley,cichlid
+998,Flounder,cichlid
+999,Gill,molly
+1000,Gill,swordtail
+1001,Marlin,cetáceo
+1002,Finley,cetáceo
+1003,Nemo,pufferfish
+1004,Squirt,cetáceo
+1005,Gill,cetáceo
+1006,Coral,molly
+1007,Marlin,tiburon
+1008,Dory,cetáceo
+1009,Flounder,cichlid
+10010,Nemo,rasbora
+10011,Coral,tiburon
+10012,Nemo,cetaceo
+10013,Marlin,danio
+10014,Flounder,cetáceo
+10015,Dory,neon tetra
+10016,Pearl,tetra
+10017,Coral,tiburon
+10018,Dory,salmon
+10019,Marlin,mamifero
+10020,Pearl,cetáceo
+10021,Bubbles,cetáceo
+10022,Finley,cetaceo
+10023,Squirt,catfish
+10024,Finley,tetra
+10025,Dory,guppy
+10026,Coral,tiburon
+10027,Finley,cichlid
+10028,Coral,danio
+10029,Nemo,neon tetra
+10030,Gill,cetáceo
+10031,Finley,cetaceo
+10032,Squirt,discus
+10033,Dory,killifish
+10034,Dory,goldfish
+10035,Finley,trout
+10036,Finley,trout
+10037,Gill,arowana
+10038,Dory,cichlid
+10039,Coral,killifish
+10040,Bubbles,discus
+10041,Flounder,tiburon
+10042,Nemo,angel fish
+10043,Nemo,swordtail
+10044,Coral,barb
+10045,Coral,betta
+10046,Gill,gourami
+10047,Dory,trout
+10048,Pearl,anchovy
+10049,Finley,trout
+10050,Nemo,tetra
+10051,Coral,catfish
+10052,Flounder,danio
+10053,Finley,danio
+10054,Marlin,arowana
+10055,Nemo,molly
+10056,Coral,mamifero
+10057,Coral,anchovy
+10058,Finley,salmon
+10059,Coral,mamifero
+10060,Finley,cichlid
+10061,Coral,cichlid
+10062,Flounder,salmon
+10063,Pearl,pufferfish
+10064,Finley,anchovy
+10065,Coral,barb
+10066,Gill,rasbora
+10067,Finley,molly
+10068,Nemo,tiburon
+10069,Squirt,cetáceo
+10070,Dory,neon tetra
+10071,Nemo,cetáceo
+10072,Pearl,guppy
+10073,Dory,molly
+10074,Bubbles,trout
+10075,Coral,angel fish
+10076,Gill,rainbow fish
+10077,Marlin,rainbow fish
+10078,Flounder,swordtail
+10079,Dory,anchovy
+10080,Squirt,rainbow fish
+10081,Dory,rasbora
+10082,Dory,cetáceo
+10083,Squirt,catfish
+10084,Bubbles,swordtail
+10085,Bubbles,pufferfish
+10086,Marlin,rasbora
+10087,Finley,trout
+10088,Flounder,angel fish
+10089,Pearl,trout
+10090,Coral,danio
+10091,Finley,rasbora
+10092,Gill,swordtail
+10093,Gill,discus
+10094,Finley,mamifero
+10095,Pearl,pufferfish
+10096,Squirt,mamifero
+10097,Squirt,barb
+10098,Squirt,killifish
+10099,Marlin,swordtail
+100100,Marlin,cetaceo
+100101,Bubbles,betta
+100102,Gill,koi
+100103,Nemo,guppy
+100104,Bubbles,catfish
+100105,Dory,koi
+100106,Pearl,salmon
+100107,Gill,rainbow fish
+100108,Dory,rasbora
+100109,Marlin,molly
+100110,Pearl,cetaceo
+100111,Flounder,gourami
+100112,Flounder,koi
+100113,Pearl,catfish
+100114,Nemo,rasbora
+100115,Nemo,cichlid
+100116,Bubbles,rasbora
+100117,Pearl,betta
+100118,Nemo,guppy
+100119,Marlin,gourami
+100120,Marlin,tiburon
+100121,Nemo,tetra
+100122,Squirt,gourami
+100123,Dory,goldfish
+100124,Dory,killifish
+100125,Marlin,danio
+100126,Dory,guppy
+100127,Bubbles,gourami
+100128,Coral,barb
+100129,Marlin,anchovy
+100130,Gill,tiburon
+100131,Finley,pufferfish
+100132,Squirt,cetáceo
+100133,Bubbles,neon tetra
+100134,Finley,swordtail
+100135,Bubbles,angel fish
+100136,Finley,betta
+100137,Pearl,cichlid
+100138,Squirt,danio
+100139,Pearl,tetra
+100140,Bubbles,rasbora
+100141,Gill,neon tetra
+100142,Gill,swordtail
+100143,Squirt,anchovy
+100144,Gill,tiburon
+100145,Finley,rainbow fish
+100146,Bubbles,neon tetra
+100147,Pearl,gourami
+100148,Coral,danio
+100149,Pearl,mamifero
+100150,Gill,tetra
+100151,Dory,arowana
+100152,Finley,tetra
+100153,Coral,catfish
+100154,Coral,cetaceo
+100155,Nemo,cetaceo
+100156,Dory,barb
+100157,Dory,koi
+100158,Coral,danio
+100159,Flounder,rasbora
+100160,Dory,betta
+100161,Coral,killifish
+100162,Flounder,betta
+100163,Dory,koi
+100164,Gill,arowana
+100165,Coral,salmon
+100166,Nemo,guppy
+100167,Flounder,arowana
+100168,Coral,danio
+100169,Dory,rainbow fish
+100170,Gill,tetra
+100171,Coral,molly
+100172,Marlin,neon tetra
+100173,Dory,tiburon
+100174,Finley,gourami
+100175,Pearl,angel fish
+100176,Nemo,tiburon
+100177,Pearl,trout
+100178,Flounder,goldfish
+100179,Gill,cetaceo
+100180,Dory,molly
+100181,Bubbles,salmon
+100182,Nemo,betta
+100183,Dory,guppy
+100184,Marlin,catfish
+100185,Gill,mamifero
+100186,Finley,tetra
+100187,Nemo,gourami
+100188,Flounder,discus
+100189,Flounder,trout
+100190,Flounder,barb
+100191,Pearl,anchovy
+100192,Flounder,neon tetra
+100193,Nemo,angel fish
+100194,Dory,trout
+100195,Gill,danio
+100196,Bubbles,tiburon
+100197,Marlin,neon tetra
+100198,Squirt,salmon
+100199,Marlin,mamifero
+100200,Gill,killifish
+100201,Coral,guppy
+100202,Bubbles,cetáceo
+100203,Squirt,molly
+100204,Finley,anchovy
+100205,Pearl,tiburon
+100206,Nemo,salmon
+100207,Marlin,killifish
+100208,Coral,anchovy
+100209,Flounder,trout
+100210,Gill,danio
+100211,Finley,gourami
+100212,Marlin,gourami
+100213,Gill,arowana
+100214,Finley,tiburon
+100215,Gill,discus
+100216,Squirt,salmon
+100217,Flounder,trout
+100218,Coral,discus
+100219,Coral,neon tetra
+100220,Bubbles,goldfish
+100221,Pearl,neon tetra
+100222,Finley,tiburon
+100223,Flounder,tiburon
+100224,Pearl,trout
+100225,Gill,pufferfish
+100226,Dory,rasbora
+100227,Flounder,anchovy
+100228,Nemo,mamifero
+100229,Marlin,cetaceo
+100230,Bubbles,salmon
+100231,Dory,tiburon
+100232,Coral,cetáceo
+100233,Coral,neon tetra
+100234,Bubbles,cetaceo
+100235,Dory,cetaceo
+100236,Marlin,catfish
+100237,Flounder,cichlid
+100238,Flounder,betta
+100239,Bubbles,koi
+100240,Bubbles,goldfish
+100241,Marlin,trout
+100242,Squirt,swordtail
+100243,Dory,swordtail
+100244,Nemo,barb
+100245,Gill,tetra
+100246,Gill,cetáceo
+100247,Dory,swordtail
+100248,Coral,discus
+100249,Coral,salmon
+100250,Marlin,guppy
+100251,Squirt,discus
+100252,Marlin,cetáceo
+100253,Coral,cichlid
+100254,Marlin,salmon
+100255,Finley,molly
+100256,Flounder,danio
+100257,Pearl,salmon
+100258,Pearl,swordtail
+100259,Marlin,barb
+100260,Squirt,trout
+100261,Gill,cetáceo
+100262,Bubbles,neon tetra
+100263,Gill,arowana
+100264,Pearl,goldfish
+100265,Pearl,mamifero
+100266,Coral,arowana
+100267,Squirt,rainbow fish
+100268,Squirt,koi
+100269,Bubbles,swordtail
+100270,Marlin,salmon
+100271,Squirt,rainbow fish
+100272,Dory,anchovy
+100273,Marlin,danio
+100274,Pearl,pufferfish
+100275,Bubbles,salmon
+100276,Flounder,pufferfish
+100277,Pearl,trout
+100278,Nemo,trout
+100279,Squirt,cetáceo
+100280,Nemo,mamifero
+100281,Marlin,gourami
+100282,Coral,cichlid
+100283,Dory,killifish
+100284,Flounder,gourami
+100285,Marlin,goldfish
+100286,Coral,anchovy
+100287,Coral,discus
+100288,Bubbles,salmon
+100289,Squirt,mamifero
+100290,Finley,discus
+100291,Marlin,anchovy
+100292,Nemo,guppy
+100293,Coral,tetra
+100294,Gill,salmon
+100295,Gill,catfish
+100296,Nemo,arowana
+100297,Bubbles,barb
+100298,Gill,neon tetra
+100299,Bubbles,rainbow fish
+100300,Gill,trout
+100301,Nemo,trout
+100302,Dory,killifish
+100303,Coral,cichlid
+100304,Pearl,anchovy
+100305,Gill,betta
+100306,Squirt,cetáceo
+100307,Marlin,tetra
+100308,Finley,anchovy
+100309,Coral,neon tetra
+100310,Flounder,swordtail
+100311,Nemo,cichlid
+100312,Dory,koi
+100313,Coral,rainbow fish
+100314,Flounder,killifish
+100315,Pearl,swordtail
+100316,Marlin,swordtail
+100317,Gill,catfish
+100318,Coral,pufferfish
+100319,Flounder,cetaceo
+100320,Gill,cetaceo
+100321,Pearl,tetra
+100322,Finley,cetáceo
+100323,Bubbles,arowana
+100324,Pearl,rainbow fish
+100325,Dory,gourami
+100326,Gill,rasbora
+100327,Dory,barb
+100328,Finley,cetaceo
+100329,Finley,discus
+100330,Pearl,arowana
+100331,Gill,molly
+100332,Pearl,trout
+100333,Gill,swordtail
+100334,Gill,goldfish
+100335,Pearl,killifish
+100336,Marlin,discus
+100337,Coral,swordtail
+100338,Bubbles,cichlid
+100339,Bubbles,koi
+100340,Squirt,trout
+100341,Dory,barb
+100342,Dory,rainbow fish
+100343,Flounder,pufferfish
+100344,Dory,angel fish
+100345,Squirt,swordtail
+100346,Finley,cetáceo
+100347,Marlin,gourami
+100348,Gill,mamifero
+100349,Nemo,guppy
+100350,Nemo,rasbora
+100351,Nemo,pufferfish
+100352,Squirt,guppy
+100353,Squirt,salmon
+100354,Squirt,killifish
+100355,Dory,tiburon
+100356,Marlin,pufferfish
+100357,Bubbles,discus
+100358,Marlin,trout
+100359,Gill,catfish
+100360,Coral,rasbora
+100361,Nemo,cetaceo
+100362,Gill,cetaceo
+100363,Flounder,goldfish
+100364,Squirt,tiburon
+100365,Pearl,cichlid
+100366,Flounder,trout
+100367,Nemo,cetáceo
+100368,Pearl,guppy
+100369,Coral,anchovy
+100370,Finley,gourami
+100371,Marlin,tiburon
+100372,Pearl,gourami
+100373,Flounder,goldfish
+100374,Finley,cetáceo
+100375,Coral,betta
+100376,Coral,danio
+100377,Squirt,betta
+100378,Squirt,goldfish
+100379,Dory,pufferfish
+100380,Nemo,cetaceo
+100381,Flounder,gourami
+100382,Bubbles,neon tetra
+100383,Finley,danio
+100384,Nemo,discus
+100385,Bubbles,pufferfish
+100386,Finley,gourami
+100387,Nemo,rasbora
+100388,Gill,cetáceo
+100389,Bubbles,swordtail
+100390,Finley,trout
+100391,Bubbles,catfish
+100392,Dory,rasbora
+100393,Finley,pufferfish
+100394,Flounder,molly
+100395,Marlin,cetáceo
+100396,Flounder,swordtail
+100397,Gill,anchovy
+100398,Dory,guppy
+100399,Nemo,mamifero
+100400,Marlin,discus
+100401,Gill,arowana
+100402,Flounder,angel fish
+100403,Gill,trout
+100404,Marlin,guppy
+100405,Dory,molly
+100406,Dory,goldfish
+100407,Flounder,cetaceo
+100408,Squirt,angel fish
+100409,Pearl,trout
+100410,Gill,trout
+100411,Dory,goldfish
+100412,Coral,neon tetra
+100413,Bubbles,salmon
+100414,Coral,catfish
+100415,Marlin,swordtail
+100416,Squirt,anchovy
+100417,Coral,arowana
+100418,Nemo,betta
+100419,Pearl,killifish
+100420,Squirt,rainbow fish
+100421,Dory,barb
+100422,Finley,molly
+100423,Dory,barb
+100424,Nemo,cetáceo
+100425,Coral,molly
+100426,Gill,rainbow fish
+100427,Dory,cichlid
+100428,Flounder,arowana
+100429,Gill,angel fish
+100430,Bubbles,goldfish
+100431,Dory,pufferfish
+100432,Dory,trout
+100433,Squirt,catfish
+100434,Finley,guppy
+100435,Coral,anchovy
+100436,Dory,pufferfish
+100437,Dory,tiburon
+100438,Dory,trout
+100439,Bubbles,molly
+100440,Squirt,trout
+100441,Gill,betta
+100442,Gill,tetra
+100443,Squirt,killifish
+100444,Marlin,pufferfish
+100445,Gill,rainbow fish
+100446,Pearl,swordtail
+100447,Nemo,guppy
+100448,Pearl,trout
+100449,Nemo,cetáceo
+100450,Dory,anchovy
+100451,Flounder,anchovy
+100452,Bubbles,arowana
+100453,Flounder,cetáceo
+100454,Coral,cichlid
+100455,Squirt,trout
+100456,Pearl,barb
+100457,Gill,neon tetra
+100458,Finley,killifish
+100459,Flounder,catfish
+100460,Pearl,koi
+100461,Nemo,swordtail
+100462,Finley,angel fish
+100463,Marlin,swordtail
+100464,Marlin,rasbora
+100465,Bubbles,cichlid
+100466,Bubbles,koi
+100467,Finley,gourami
+100468,Dory,danio
+100469,Squirt,koi
+100470,Bubbles,angel fish
+100471,Marlin,arowana
+100472,Dory,cichlid
+100473,Squirt,arowana
+100474,Coral,barb
+100475,Finley,rasbora
+100476,Dory,anchovy
+100477,Dory,trout
+100478,Flounder,guppy
+100479,Squirt,guppy
+100480,Nemo,barb
+100481,Nemo,swordtail
+100482,Pearl,cichlid
+100483,Dory,discus
+100484,Gill,goldfish
+100485,Pearl,anchovy
+100486,Nemo,discus
+100487,Pearl,pufferfish
+100488,Flounder,neon tetra
+100489,Bubbles,cetáceo
+100490,Flounder,cetáceo
+100491,Finley,cetaceo
+100492,Bubbles,gourami
+100493,Bubbles,tetra
+100494,Flounder,cichlid
+100495,Squirt,cichlid
+100496,Finley,molly
+100497,Flounder,guppy
+100498,Flounder,betta
+100499,Flounder,salmon
+100500,Pearl,rasbora
+100501,Bubbles,goldfish
+100502,Bubbles,neon tetra
+100503,Squirt,neon tetra
+100504,Coral,cetáceo
+100505,Finley,tiburon
+100506,Squirt,rainbow fish
+100507,Finley,tiburon
+100508,Gill,angel fish
+100509,Finley,cetáceo
+100510,Gill,discus
+100511,Nemo,anchovy
+100512,Bubbles,killifish
+100513,Gill,cetáceo
+100514,Gill,cichlid
+100515,Nemo,pufferfish
+100516,Squirt,koi
+100517,Coral,molly
+100518,Bubbles,rasbora
+100519,Finley,killifish
+100520,Finley,mamifero
+100521,Coral,rasbora
+100522,Dory,cetáceo
+100523,Coral,pufferfish
+100524,Finley,salmon
+100525,Gill,cetáceo
+100526,Coral,betta
+100527,Flounder,goldfish
+100528,Flounder,danio
+100529,Finley,cetáceo
+100530,Nemo,killifish
+100531,Squirt,anchovy
+100532,Dory,angel fish
+100533,Bubbles,pufferfish
+100534,Gill,killifish
+100535,Flounder,barb
+100536,Finley,trout
+100537,Dory,angel fish
+100538,Flounder,angel fish
+100539,Marlin,salmon
+100540,Coral,killifish
+100541,Dory,barb
+100542,Dory,rasbora
+100543,Nemo,danio
+100544,Squirt,trout
+100545,Pearl,pufferfish
+100546,Bubbles,cichlid
+100547,Dory,betta
+100548,Bubbles,mamifero
+100549,Gill,goldfish
+100550,Gill,rasbora
+100551,Pearl,betta
+100552,Marlin,discus
+100553,Gill,discus
+100554,Dory,barb
+100555,Squirt,neon tetra
+100556,Nemo,cetáceo
+100557,Dory,neon tetra
+100558,Bubbles,gourami
+100559,Coral,tiburon
+100560,Pearl,salmon
+100561,Flounder,cetaceo
+100562,Pearl,neon tetra
+100563,Squirt,barb
+100564,Finley,catfish
+100565,Gill,gourami
+100566,Gill,danio
+100567,Squirt,cetaceo
+100568,Flounder,tetra
+100569,Flounder,tiburon
+100570,Flounder,discus
+100571,Marlin,neon tetra
+100572,Flounder,tetra
+100573,Marlin,gourami
+100574,Bubbles,rainbow fish
+100575,Gill,salmon
+100576,Finley,salmon
+100577,Bubbles,mamifero
+100578,Gill,cetáceo
+100579,Flounder,swordtail
+100580,Pearl,molly
+100581,Flounder,guppy
+100582,Nemo,arowana
+100583,Bubbles,neon tetra
+100584,Finley,rainbow fish
+100585,Dory,mamifero
+100586,Gill,discus
+100587,Coral,mamifero
+100588,Dory,molly
+100589,Gill,killifish
+100590,Gill,pufferfish
+100591,Finley,cichlid
+100592,Flounder,tetra
+100593,Finley,tiburon
+100594,Coral,catfish
+100595,Squirt,cetáceo
+100596,Finley,betta
+100597,Finley,goldfish
+100598,Squirt,anchovy
+100599,Squirt,killifish
+100600,Finley,tiburon
+100601,Gill,cetaceo
+100602,Dory,pufferfish
+100603,Coral,anchovy
+100604,Gill,tetra
+100605,Finley,killifish
+100606,Coral,betta
+100607,Flounder,killifish
+100608,Coral,guppy
+100609,Coral,barb
+100610,Finley,goldfish
+100611,Nemo,molly
+100612,Dory,gourami
+100613,Marlin,discus
+100614,Nemo,cetáceo
+100615,Pearl,rasbora
+100616,Finley,tiburon
+100617,Flounder,cetáceo
+100618,Bubbles,neon tetra
+100619,Marlin,pufferfish
+100620,Gill,swordtail
+100621,Marlin,salmon
+100622,Coral,barb
+100623,Finley,cetáceo
+100624,Pearl,tiburon
+100625,Bubbles,barb
+100626,Finley,gourami
+100627,Finley,anchovy
+100628,Pearl,discus
+100629,Pearl,rainbow fish
+100630,Coral,molly
+100631,Bubbles,swordtail
+100632,Nemo,cetáceo
+100633,Gill,goldfish
+100634,Bubbles,discus
+100635,Coral,rainbow fish
+100636,Squirt,swordtail
+100637,Gill,catfish
+100638,Bubbles,rasbora
+100639,Flounder,killifish
+100640,Gill,anchovy
+100641,Coral,arowana
+100642,Dory,cetaceo
+100643,Bubbles,tetra
+100644,Flounder,killifish
+100645,Flounder,betta
+100646,Flounder,molly
+100647,Nemo,tiburon
+100648,Flounder,discus
+100649,Gill,rainbow fish
+100650,Gill,arowana
+100651,Pearl,swordtail
+100652,Marlin,betta
+100653,Pearl,discus
+100654,Pearl,discus
+100655,Coral,gourami
+100656,Marlin,cetáceo
+100657,Dory,pufferfish
+100658,Pearl,neon tetra
+100659,Squirt,tetra
+100660,Gill,neon tetra
+100661,Finley,tetra
+100662,Gill,angel fish
+100663,Squirt,danio
+100664,Nemo,neon tetra
+100665,Pearl,killifish
+100666,Gill,catfish
+100667,Coral,molly
+100668,Squirt,tetra
+100669,Squirt,rainbow fish
+100670,Nemo,tetra
+100671,Marlin,rasbora
+100672,Squirt,tiburon
+100673,Marlin,tetra
+100674,Gill,guppy
+100675,Gill,molly
+100676,Coral,danio
+100677,Squirt,tetra
+100678,Nemo,danio
+100679,Gill,pufferfish
+100680,Bubbles,discus
+100681,Pearl,betta
+100682,Pearl,betta
+100683,Gill,koi
+100684,Squirt,cichlid
+100685,Gill,catfish
+100686,Gill,mamifero
+100687,Squirt,guppy
+100688,Nemo,rasbora
+100689,Pearl,tetra
+100690,Gill,betta
+100691,Marlin,arowana
+100692,Coral,salmon
+100693,Pearl,salmon
+100694,Pearl,killifish
+100695,Bubbles,arowana
+100696,Bubbles,trout
+100697,Flounder,angel fish
+100698,Squirt,salmon
+100699,Flounder,tetra
+100700,Coral,cetaceo
+100701,Flounder,neon tetra
+100702,Flounder,goldfish
+100703,Marlin,rainbow fish
+100704,Dory,mamifero
+100705,Coral,barb
+100706,Squirt,neon tetra
+100707,Coral,tetra
+100708,Dory,guppy
+100709,Squirt,molly
+100710,Finley,betta
+100711,Coral,molly
+100712,Nemo,catfish
+100713,Nemo,pufferfish
+100714,Nemo,neon tetra
+100715,Flounder,salmon
+100716,Gill,tetra
+100717,Bubbles,tiburon
+100718,Bubbles,guppy
+100719,Coral,angel fish
+100720,Finley,mamifero
+100721,Bubbles,tetra
+100722,Dory,angel fish
+100723,Bubbles,pufferfish
+100724,Coral,cetáceo
+100725,Pearl,guppy
+100726,Dory,barb
+100727,Flounder,koi
+100728,Finley,swordtail
+100729,Squirt,discus
+100730,Flounder,swordtail
+100731,Bubbles,cetáceo
+100732,Marlin,tetra
+100733,Bubbles,cetáceo
+100734,Gill,salmon
+100735,Squirt,salmon
+100736,Coral,molly
+100737,Bubbles,killifish
+100738,Bubbles,arowana
+100739,Marlin,goldfish
+100740,Finley,catfish
+100741,Pearl,angel fish
+100742,Nemo,cetaceo
+100743,Bubbles,molly
+100744,Pearl,cetáceo
+100745,Marlin,cichlid
+100746,Gill,cichlid
+100747,Marlin,arowana
+100748,Marlin,catfish
+100749,Dory,rainbow fish
+100750,Bubbles,anchovy
+100751,Finley,trout
+100752,Gill,cichlid
+100753,Pearl,cetáceo
+100754,Finley,angel fish
+100755,Dory,betta
+100756,Flounder,cichlid
+100757,Gill,tetra
+100758,Pearl,angel fish
+100759,Coral,guppy
+100760,Finley,angel fish
+100761,Nemo,betta
+100762,Gill,tiburon
+100763,Squirt,rasbora
+100764,Dory,rasbora
+100765,Dory,arowana
+100766,Squirt,gourami
+100767,Marlin,rasbora
+100768,Gill,cetaceo
+100769,Nemo,salmon
+100770,Marlin,catfish
+100771,Bubbles,molly
+100772,Marlin,koi
+100773,Squirt,tetra
+100774,Bubbles,angel fish
+100775,Coral,guppy
+100776,Squirt,cetáceo
+100777,Dory,goldfish
+100778,Dory,rainbow fish
+100779,Bubbles,pufferfish
+100780,Dory,cetáceo
+100781,Coral,rasbora
+100782,Coral,killifish
+100783,Flounder,pufferfish
+100784,Coral,tiburon
+100785,Nemo,danio
+100786,Gill,goldfish
+100787,Bubbles,catfish
+100788,Bubbles,catfish
+100789,Finley,cetáceo
+100790,Gill,neon tetra
+100791,Dory,discus
+100792,Dory,goldfish
+100793,Dory,catfish
+100794,Flounder,cichlid
+100795,Finley,angel fish
+100796,Bubbles,danio
+100797,Dory,rasbora
+100798,Flounder,gourami
+100799,Dory,cetáceo
+100800,Finley,tiburon
+100801,Coral,salmon
+100802,Coral,arowana
+100803,Pearl,barb
+100804,Coral,barb
+100805,Nemo,killifish
+100806,Coral,mamifero
+100807,Marlin,discus
+100808,Finley,barb
+100809,Squirt,molly
+100810,Bubbles,gourami
+100811,Nemo,arowana
+100812,Pearl,neon tetra
+100813,Pearl,tetra
+100814,Coral,swordtail
+100815,Dory,catfish
+100816,Pearl,anchovy
+100817,Squirt,gourami
+100818,Marlin,cetaceo
+100819,Pearl,guppy
+100820,Flounder,arowana
+100821,Pearl,tetra
+100822,Dory,danio
+100823,Nemo,catfish
+100824,Coral,pufferfish
+100825,Flounder,danio
+100826,Dory,cichlid
+100827,Squirt,killifish
+100828,Bubbles,guppy
+100829,Squirt,rainbow fish
+100830,Bubbles,cetáceo
+100831,Finley,rainbow fish
+100832,Squirt,cetáceo
+100833,Flounder,trout
+100834,Gill,cichlid
+100835,Squirt,salmon
+100836,Coral,pufferfish
+100837,Pearl,goldfish
+100838,Marlin,cetaceo
+100839,Bubbles,arowana
+100840,Dory,goldfish
+100841,Squirt,salmon
+100842,Nemo,betta
+100843,Flounder,cetáceo
+100844,Nemo,trout
+100845,Squirt,trout
+100846,Coral,koi
+100847,Marlin,salmon
+100848,Nemo,gourami
+100849,Nemo,killifish
+100850,Dory,arowana
+100851,Dory,cetaceo
+100852,Bubbles,killifish
+100853,Flounder,trout
+100854,Flounder,goldfish
+100855,Coral,mamifero
+100856,Bubbles,discus
+100857,Flounder,barb
+100858,Dory,killifish
+100859,Nemo,cetaceo
+100860,Marlin,angel fish
+100861,Finley,pufferfish
+100862,Coral,salmon
+100863,Coral,rasbora
+100864,Gill,tiburon
+100865,Bubbles,cetáceo
+100866,Finley,cetáceo
+100867,Dory,killifish
+100868,Nemo,arowana
+100869,Coral,anchovy
+100870,Coral,danio
+100871,Gill,cetaceo
+100872,Marlin,koi
+100873,Flounder,anchovy
+100874,Pearl,rainbow fish
+100875,Marlin,goldfish
+100876,Flounder,trout
+100877,Flounder,arowana
+100878,Nemo,tetra
+100879,Nemo,catfish
+100880,Marlin,salmon
+100881,Gill,tetra
+100882,Bubbles,cichlid
+100883,Coral,goldfish
+100884,Pearl,cichlid
+100885,Pearl,molly
+100886,Dory,tiburon
+100887,Pearl,koi
+100888,Flounder,barb
+100889,Pearl,rainbow fish
+100890,Marlin,koi
+100891,Pearl,discus
+100892,Finley,salmon
+100893,Coral,tetra
+100894,Coral,danio
+100895,Dory,salmon
+100896,Flounder,anchovy
+100897,Finley,cichlid
+100898,Marlin,neon tetra
+100899,Nemo,salmon
+100900,Pearl,gourami
+100901,Dory,cichlid
+100902,Nemo,anchovy
+100903,Squirt,swordtail
+100904,Dory,molly
+100905,Marlin,guppy
+100906,Bubbles,neon tetra
+100907,Finley,trout
+100908,Gill,gourami
+100909,Finley,betta
+100910,Bubbles,arowana
+100911,Nemo,tetra
+100912,Flounder,tiburon
+100913,Squirt,rainbow fish
+100914,Coral,rainbow fish
+100915,Flounder,pufferfish
+100916,Pearl,rasbora
+100917,Flounder,barb
+100918,Coral,koi
+100919,Squirt,swordtail
+100920,Nemo,arowana
+100921,Squirt,mamifero
+100922,Squirt,barb
+100923,Flounder,cetáceo
+100924,Squirt,barb
+100925,Nemo,catfish
+100926,Marlin,neon tetra
+100927,Flounder,mamifero
+100928,Flounder,tiburon
+100929,Finley,neon tetra
+100930,Gill,swordtail
+100931,Squirt,neon tetra
+100932,Nemo,mamifero
+100933,Gill,cetaceo
+100934,Nemo,barb
+100935,Coral,killifish
+100936,Gill,arowana
+100937,Gill,tetra
+100938,Coral,molly
+100939,Finley,gourami
+100940,Squirt,goldfish
+100941,Nemo,cichlid
+100942,Marlin,molly
+100943,Gill,killifish
+100944,Gill,pufferfish
+100945,Dory,anchovy
+100946,Coral,koi
+100947,Bubbles,salmon
+100948,Finley,catfish
+100949,Finley,swordtail
+100950,Gill,danio
+100951,Bubbles,trout
+100952,Gill,catfish
+100953,Squirt,neon tetra
+100954,Flounder,goldfish
+100955,Coral,salmon
+100956,Pearl,pufferfish
+100957,Dory,gourami
+100958,Marlin,barb
+100959,Gill,guppy
+100960,Squirt,swordtail
+100961,Nemo,pufferfish
+100962,Bubbles,killifish
+100963,Finley,mamifero
+100964,Dory,tiburon
+100965,Squirt,swordtail
+100966,Nemo,danio
+100967,Marlin,tetra
+100968,Dory,arowana
+100969,Finley,tiburon
+100970,Marlin,gourami
+100971,Nemo,killifish
+100972,Marlin,anchovy
+100973,Bubbles,koi
+100974,Squirt,tetra
+100975,Coral,discus
+100976,Coral,rasbora
+100977,Squirt,betta
+100978,Marlin,gourami
+100979,Squirt,discus
+100980,Squirt,neon tetra
+100981,Nemo,danio
+100982,Flounder,tiburon
+100983,Gill,swordtail
+100984,Nemo,rainbow fish
+100985,Flounder,trout
+100986,Flounder,gourami
+100987,Coral,tetra
+100988,Bubbles,gourami
+100989,Finley,discus
+100990,Flounder,mamifero
+100991,Dory,anchovy
+100992,Pearl,anchovy
+100993,Flounder,discus
+100994,Dory,salmon
+100995,Bubbles,rasbora
+100996,Flounder,swordtail
+100997,Finley,cichlid
+100998,Flounder,cichlid
+100999,Gill,molly
+1001000,Gill,swordtail
+2001,Marlin,cetáceo
+2002,Finley,cetáceo
+2003,Nemo,pufferfish
+2004,Squirt,cetáceo
+2005,Gill,cetáceo
+2006,Coral,molly
+2007,Marlin,tiburon
+2008,Dory,cetáceo
+2009,Flounder,cichlid
+20010,Nemo,rasbora
+20011,Coral,tiburon
+20012,Nemo,cetaceo
+20013,Marlin,danio
+20014,Flounder,cetáceo
+20015,Dory,neon tetra
+20016,Pearl,tetra
+20017,Coral,tiburon
+20018,Dory,salmon
+20019,Marlin,mamifero
+20020,Pearl,cetáceo
+20021,Bubbles,cetáceo
+20022,Finley,cetaceo
+20023,Squirt,catfish
+20024,Finley,tetra
+20025,Dory,guppy
+20026,Coral,tiburon
+20027,Finley,cichlid
+20028,Coral,danio
+20029,Nemo,neon tetra
+20030,Gill,cetáceo
+20031,Finley,cetaceo
+20032,Squirt,discus
+20033,Dory,killifish
+20034,Dory,goldfish
+20035,Finley,trout
+20036,Finley,trout
+20037,Gill,arowana
+20038,Dory,cichlid
+20039,Coral,killifish
+20040,Bubbles,discus
+20041,Flounder,tiburon
+20042,Nemo,angel fish
+20043,Nemo,swordtail
+20044,Coral,barb
+20045,Coral,betta
+20046,Gill,gourami
+20047,Dory,trout
+20048,Pearl,anchovy
+20049,Finley,trout
+20050,Nemo,tetra
+20051,Coral,catfish
+20052,Flounder,danio
+20053,Finley,danio
+20054,Marlin,arowana
+20055,Nemo,molly
+20056,Coral,mamifero
+20057,Coral,anchovy
+20058,Finley,salmon
+20059,Coral,mamifero
+20060,Finley,cichlid
+20061,Coral,cichlid
+20062,Flounder,salmon
+20063,Pearl,pufferfish
+20064,Finley,anchovy
+20065,Coral,barb
+20066,Gill,rasbora
+20067,Finley,molly
+20068,Nemo,tiburon
+20069,Squirt,cetáceo
+20070,Dory,neon tetra
+20071,Nemo,cetáceo
+20072,Pearl,guppy
+20073,Dory,molly
+20074,Bubbles,trout
+20075,Coral,angel fish
+20076,Gill,rainbow fish
+20077,Marlin,rainbow fish
+20078,Flounder,swordtail
+20079,Dory,anchovy
+20080,Squirt,rainbow fish
+20081,Dory,rasbora
+20082,Dory,cetáceo
+20083,Squirt,catfish
+20084,Bubbles,swordtail
+20085,Bubbles,pufferfish
+20086,Marlin,rasbora
+20087,Finley,trout
+20088,Flounder,angel fish
+20089,Pearl,trout
+20090,Coral,danio
+20091,Finley,rasbora
+20092,Gill,swordtail
+20093,Gill,discus
+20094,Finley,mamifero
+20095,Pearl,pufferfish
+20096,Squirt,mamifero
+20097,Squirt,barb
+20098,Squirt,killifish
+20099,Marlin,swordtail
+200100,Marlin,cetaceo
+200101,Bubbles,betta
+200102,Gill,koi
+200103,Nemo,guppy
+200104,Bubbles,catfish
+200105,Dory,koi
+200106,Pearl,salmon
+200107,Gill,rainbow fish
+200108,Dory,rasbora
+200109,Marlin,molly
+200110,Pearl,cetaceo
+200111,Flounder,gourami
+200112,Flounder,koi
+200113,Pearl,catfish
+200114,Nemo,rasbora
+200115,Nemo,cichlid
+200116,Bubbles,rasbora
+200117,Pearl,betta
+200118,Nemo,guppy
+200119,Marlin,gourami
+200120,Marlin,tiburon
+200121,Nemo,tetra
+200122,Squirt,gourami
+200123,Dory,goldfish
+200124,Dory,killifish
+200125,Marlin,danio
+200126,Dory,guppy
+200127,Bubbles,gourami
+200128,Coral,barb
+200129,Marlin,anchovy
+200130,Gill,tiburon
+200131,Finley,pufferfish
+200132,Squirt,cetáceo
+200133,Bubbles,neon tetra
+200134,Finley,swordtail
+200135,Bubbles,angel fish
+200136,Finley,betta
+200137,Pearl,cichlid
+200138,Squirt,danio
+200139,Pearl,tetra
+200140,Bubbles,rasbora
+200141,Gill,neon tetra
+200142,Gill,swordtail
+200143,Squirt,anchovy
+200144,Gill,tiburon
+200145,Finley,rainbow fish
+200146,Bubbles,neon tetra
+200147,Pearl,gourami
+200148,Coral,danio
+200149,Pearl,mamifero
+200150,Gill,tetra
+200151,Dory,arowana
+200152,Finley,tetra
+200153,Coral,catfish
+200154,Coral,cetaceo
+200155,Nemo,cetaceo
+200156,Dory,barb
+200157,Dory,koi
+200158,Coral,danio
+200159,Flounder,rasbora
+200160,Dory,betta
+200161,Coral,killifish
+200162,Flounder,betta
+200163,Dory,koi
+200164,Gill,arowana
+200165,Coral,salmon
+200166,Nemo,guppy
+200167,Flounder,arowana
+200168,Coral,danio
+200169,Dory,rainbow fish
+200170,Gill,tetra
+200171,Coral,molly
+200172,Marlin,neon tetra
+200173,Dory,tiburon
+200174,Finley,gourami
+200175,Pearl,angel fish
+200176,Nemo,tiburon
+200177,Pearl,trout
+200178,Flounder,goldfish
+200179,Gill,cetaceo
+200180,Dory,molly
+200181,Bubbles,salmon
+200182,Nemo,betta
+200183,Dory,guppy
+200184,Marlin,catfish
+200185,Gill,mamifero
+200186,Finley,tetra
+200187,Nemo,gourami
+200188,Flounder,discus
+200189,Flounder,trout
+200190,Flounder,barb
+200191,Pearl,anchovy
+200192,Flounder,neon tetra
+200193,Nemo,angel fish
+200194,Dory,trout
+200195,Gill,danio
+200196,Bubbles,tiburon
+200197,Marlin,neon tetra
+200198,Squirt,salmon
+200199,Marlin,mamifero
+200200,Gill,killifish
+200201,Coral,guppy
+200202,Bubbles,cetáceo
+200203,Squirt,molly
+200204,Finley,anchovy
+200205,Pearl,tiburon
+200206,Nemo,salmon
+200207,Marlin,killifish
+200208,Coral,anchovy
+200209,Flounder,trout
+200210,Gill,danio
+200211,Finley,gourami
+200212,Marlin,gourami
+200213,Gill,arowana
+200214,Finley,tiburon
+200215,Gill,discus
+200216,Squirt,salmon
+200217,Flounder,trout
+200218,Coral,discus
+200219,Coral,neon tetra
+200220,Bubbles,goldfish
+200221,Pearl,neon tetra
+200222,Finley,tiburon
+200223,Flounder,tiburon
+200224,Pearl,trout
+200225,Gill,pufferfish
+200226,Dory,rasbora
+200227,Flounder,anchovy
+200228,Nemo,mamifero
+200229,Marlin,cetaceo
+200230,Bubbles,salmon
+200231,Dory,tiburon
+200232,Coral,cetáceo
+200233,Coral,neon tetra
+200234,Bubbles,cetaceo
+200235,Dory,cetaceo
+200236,Marlin,catfish
+200237,Flounder,cichlid
+200238,Flounder,betta
+200239,Bubbles,koi
+200240,Bubbles,goldfish
+200241,Marlin,trout
+200242,Squirt,swordtail
+200243,Dory,swordtail
+200244,Nemo,barb
+200245,Gill,tetra
+200246,Gill,cetáceo
+200247,Dory,swordtail
+200248,Coral,discus
+200249,Coral,salmon
+200250,Marlin,guppy
+200251,Squirt,discus
+200252,Marlin,cetáceo
+200253,Coral,cichlid
+200254,Marlin,salmon
+200255,Finley,molly
+200256,Flounder,danio
+200257,Pearl,salmon
+200258,Pearl,swordtail
+200259,Marlin,barb
+200260,Squirt,trout
+200261,Gill,cetáceo
+200262,Bubbles,neon tetra
+200263,Gill,arowana
+200264,Pearl,goldfish
+200265,Pearl,mamifero
+200266,Coral,arowana
+200267,Squirt,rainbow fish
+200268,Squirt,koi
+200269,Bubbles,swordtail
+200270,Marlin,salmon
+200271,Squirt,rainbow fish
+200272,Dory,anchovy
+200273,Marlin,danio
+200274,Pearl,pufferfish
+200275,Bubbles,salmon
+200276,Flounder,pufferfish
+200277,Pearl,trout
+200278,Nemo,trout
+200279,Squirt,cetáceo
+200280,Nemo,mamifero
+200281,Marlin,gourami
+200282,Coral,cichlid
+200283,Dory,killifish
+200284,Flounder,gourami
+200285,Marlin,goldfish
+200286,Coral,anchovy
+200287,Coral,discus
+200288,Bubbles,salmon
+200289,Squirt,mamifero
+200290,Finley,discus
+200291,Marlin,anchovy
+200292,Nemo,guppy
+200293,Coral,tetra
+200294,Gill,salmon
+200295,Gill,catfish
+200296,Nemo,arowana
+200297,Bubbles,barb
+200298,Gill,neon tetra
+200299,Bubbles,rainbow fish
+200300,Gill,trout
+200301,Nemo,trout
+200302,Dory,killifish
+200303,Coral,cichlid
+200304,Pearl,anchovy
+200305,Gill,betta
+200306,Squirt,cetáceo
+200307,Marlin,tetra
+200308,Finley,anchovy
+200309,Coral,neon tetra
+200310,Flounder,swordtail
+200311,Nemo,cichlid
+200312,Dory,koi
+200313,Coral,rainbow fish
+200314,Flounder,killifish
+200315,Pearl,swordtail
+200316,Marlin,swordtail
+200317,Gill,catfish
+200318,Coral,pufferfish
+200319,Flounder,cetaceo
+200320,Gill,cetaceo
+200321,Pearl,tetra
+200322,Finley,cetáceo
+200323,Bubbles,arowana
+200324,Pearl,rainbow fish
+200325,Dory,gourami
+200326,Gill,rasbora
+200327,Dory,barb
+200328,Finley,cetaceo
+200329,Finley,discus
+200330,Pearl,arowana
+200331,Gill,molly
+200332,Pearl,trout
+200333,Gill,swordtail
+200334,Gill,goldfish
+200335,Pearl,killifish
+200336,Marlin,discus
+200337,Coral,swordtail
+200338,Bubbles,cichlid
+200339,Bubbles,koi
+200340,Squirt,trout
+200341,Dory,barb
+200342,Dory,rainbow fish
+200343,Flounder,pufferfish
+200344,Dory,angel fish
+200345,Squirt,swordtail
+200346,Finley,cetáceo
+200347,Marlin,gourami
+200348,Gill,mamifero
+200349,Nemo,guppy
+200350,Nemo,rasbora
+200351,Nemo,pufferfish
+200352,Squirt,guppy
+200353,Squirt,salmon
+200354,Squirt,killifish
+200355,Dory,tiburon
+200356,Marlin,pufferfish
+200357,Bubbles,discus
+200358,Marlin,trout
+200359,Gill,catfish
+200360,Coral,rasbora
+200361,Nemo,cetaceo
+200362,Gill,cetaceo
+200363,Flounder,goldfish
+200364,Squirt,tiburon
+200365,Pearl,cichlid
+200366,Flounder,trout
+200367,Nemo,cetáceo
+200368,Pearl,guppy
+200369,Coral,anchovy
+200370,Finley,gourami
+200371,Marlin,tiburon
+200372,Pearl,gourami
+200373,Flounder,goldfish
+200374,Finley,cetáceo
+200375,Coral,betta
+200376,Coral,danio
+200377,Squirt,betta
+200378,Squirt,goldfish
+200379,Dory,pufferfish
+200380,Nemo,cetaceo
+200381,Flounder,gourami
+200382,Bubbles,neon tetra
+200383,Finley,danio
+200384,Nemo,discus
+200385,Bubbles,pufferfish
+200386,Finley,gourami
+200387,Nemo,rasbora
+200388,Gill,cetáceo
+200389,Bubbles,swordtail
+200390,Finley,trout
+200391,Bubbles,catfish
+200392,Dory,rasbora
+200393,Finley,pufferfish
+200394,Flounder,molly
+200395,Marlin,cetáceo
+200396,Flounder,swordtail
+200397,Gill,anchovy
+200398,Dory,guppy
+200399,Nemo,mamifero
+200400,Marlin,discus
+200401,Gill,arowana
+200402,Flounder,angel fish
+200403,Gill,trout
+200404,Marlin,guppy
+200405,Dory,molly
+200406,Dory,goldfish
+200407,Flounder,cetaceo
+200408,Squirt,angel fish
+200409,Pearl,trout
+200410,Gill,trout
+200411,Dory,goldfish
+200412,Coral,neon tetra
+200413,Bubbles,salmon
+200414,Coral,catfish
+200415,Marlin,swordtail
+200416,Squirt,anchovy
+200417,Coral,arowana
+200418,Nemo,betta
+200419,Pearl,killifish
+200420,Squirt,rainbow fish
+200421,Dory,barb
+200422,Finley,molly
+200423,Dory,barb
+200424,Nemo,cetáceo
+200425,Coral,molly
+200426,Gill,rainbow fish
+200427,Dory,cichlid
+200428,Flounder,arowana
+200429,Gill,angel fish
+200430,Bubbles,goldfish
+200431,Dory,pufferfish
+200432,Dory,trout
+200433,Squirt,catfish
+200434,Finley,guppy
+200435,Coral,anchovy
+200436,Dory,pufferfish
+200437,Dory,tiburon
+200438,Dory,trout
+200439,Bubbles,molly
+200440,Squirt,trout
+200441,Gill,betta
+200442,Gill,tetra
+200443,Squirt,killifish
+200444,Marlin,pufferfish
+200445,Gill,rainbow fish
+200446,Pearl,swordtail
+200447,Nemo,guppy
+200448,Pearl,trout
+200449,Nemo,cetáceo
+200450,Dory,anchovy
+200451,Flounder,anchovy
+200452,Bubbles,arowana
+200453,Flounder,cetáceo
+200454,Coral,cichlid
+200455,Squirt,trout
+200456,Pearl,barb
+200457,Gill,neon tetra
+200458,Finley,killifish
+200459,Flounder,catfish
+200460,Pearl,koi
+200461,Nemo,swordtail
+200462,Finley,angel fish
+200463,Marlin,swordtail
+200464,Marlin,rasbora
+200465,Bubbles,cichlid
+200466,Bubbles,koi
+200467,Finley,gourami
+200468,Dory,danio
+200469,Squirt,koi
+200470,Bubbles,angel fish
+200471,Marlin,arowana
+200472,Dory,cichlid
+200473,Squirt,arowana
+200474,Coral,barb
+200475,Finley,rasbora
+200476,Dory,anchovy
+200477,Dory,trout
+200478,Flounder,guppy
+200479,Squirt,guppy
+200480,Nemo,barb
+200481,Nemo,swordtail
+200482,Pearl,cichlid
+200483,Dory,discus
+200484,Gill,goldfish
+200485,Pearl,anchovy
+200486,Nemo,discus
+200487,Pearl,pufferfish
+200488,Flounder,neon tetra
+200489,Bubbles,cetáceo
+200490,Flounder,cetáceo
+200491,Finley,cetaceo
+200492,Bubbles,gourami
+200493,Bubbles,tetra
+200494,Flounder,cichlid
+200495,Squirt,cichlid
+200496,Finley,molly
+200497,Flounder,guppy
+200498,Flounder,betta
+200499,Flounder,salmon
+200500,Pearl,rasbora
+200501,Bubbles,goldfish
+200502,Bubbles,neon tetra
+200503,Squirt,neon tetra
+200504,Coral,cetáceo
+200505,Finley,tiburon
+200506,Squirt,rainbow fish
+200507,Finley,tiburon
+200508,Gill,angel fish
+200509,Finley,cetáceo
+200510,Gill,discus
+200511,Nemo,anchovy
+200512,Bubbles,killifish
+200513,Gill,cetáceo
+200514,Gill,cichlid
+200515,Nemo,pufferfish
+200516,Squirt,koi
+200517,Coral,molly
+200518,Bubbles,rasbora
+200519,Finley,killifish
+200520,Finley,mamifero
+200521,Coral,rasbora
+200522,Dory,cetáceo
+200523,Coral,pufferfish
+200524,Finley,salmon
+200525,Gill,cetáceo
+200526,Coral,betta
+200527,Flounder,goldfish
+200528,Flounder,danio
+200529,Finley,cetáceo
+200530,Nemo,killifish
+200531,Squirt,anchovy
+200532,Dory,angel fish
+200533,Bubbles,pufferfish
+200534,Gill,killifish
+200535,Flounder,barb
+200536,Finley,trout
+200537,Dory,angel fish
+200538,Flounder,angel fish
+200539,Marlin,salmon
+200540,Coral,killifish
+200541,Dory,barb
+200542,Dory,rasbora
+200543,Nemo,danio
+200544,Squirt,trout
+200545,Pearl,pufferfish
+200546,Bubbles,cichlid
+200547,Dory,betta
+200548,Bubbles,mamifero
+200549,Gill,goldfish
+200550,Gill,rasbora
+200551,Pearl,betta
+200552,Marlin,discus
+200553,Gill,discus
+200554,Dory,barb
+200555,Squirt,neon tetra
+200556,Nemo,cetáceo
+200557,Dory,neon tetra
+200558,Bubbles,gourami
+200559,Coral,tiburon
+200560,Pearl,salmon
+200561,Flounder,cetaceo
+200562,Pearl,neon tetra
+200563,Squirt,barb
+200564,Finley,catfish
+200565,Gill,gourami
+200566,Gill,danio
+200567,Squirt,cetaceo
+200568,Flounder,tetra
+200569,Flounder,tiburon
+200570,Flounder,discus
+200571,Marlin,neon tetra
+200572,Flounder,tetra
+200573,Marlin,gourami
+200574,Bubbles,rainbow fish
+200575,Gill,salmon
+200576,Finley,salmon
+200577,Bubbles,mamifero
+200578,Gill,cetáceo
+200579,Flounder,swordtail
+200580,Pearl,molly
+200581,Flounder,guppy
+200582,Nemo,arowana
+200583,Bubbles,neon tetra
+200584,Finley,rainbow fish
+200585,Dory,mamifero
+200586,Gill,discus
+200587,Coral,mamifero
+200588,Dory,molly
+200589,Gill,killifish
+200590,Gill,pufferfish
+200591,Finley,cichlid
+200592,Flounder,tetra
+200593,Finley,tiburon
+200594,Coral,catfish
+200595,Squirt,cetáceo
+200596,Finley,betta
+200597,Finley,goldfish
+200598,Squirt,anchovy
+200599,Squirt,killifish
+200600,Finley,tiburon
+200601,Gill,cetaceo
+200602,Dory,pufferfish
+200603,Coral,anchovy
+200604,Gill,tetra
+200605,Finley,killifish
+200606,Coral,betta
+200607,Flounder,killifish
+200608,Coral,guppy
+200609,Coral,barb
+200610,Finley,goldfish
+200611,Nemo,molly
+200612,Dory,gourami
+200613,Marlin,discus
+200614,Nemo,cetáceo
+200615,Pearl,rasbora
+200616,Finley,tiburon
+200617,Flounder,cetáceo
+200618,Bubbles,neon tetra
+200619,Marlin,pufferfish
+200620,Gill,swordtail
+200621,Marlin,salmon
+200622,Coral,barb
+200623,Finley,cetáceo
+200624,Pearl,tiburon
+200625,Bubbles,barb
+200626,Finley,gourami
+200627,Finley,anchovy
+200628,Pearl,discus
+200629,Pearl,rainbow fish
+200630,Coral,molly
+200631,Bubbles,swordtail
+200632,Nemo,cetáceo
+200633,Gill,goldfish
+200634,Bubbles,discus
+200635,Coral,rainbow fish
+200636,Squirt,swordtail
+200637,Gill,catfish
+200638,Bubbles,rasbora
+200639,Flounder,killifish
+200640,Gill,anchovy
+200641,Coral,arowana
+200642,Dory,cetaceo
+200643,Bubbles,tetra
+200644,Flounder,killifish
+200645,Flounder,betta
+200646,Flounder,molly
+200647,Nemo,tiburon
+200648,Flounder,discus
+200649,Gill,rainbow fish
+200650,Gill,arowana
+200651,Pearl,swordtail
+200652,Marlin,betta
+200653,Pearl,discus
+200654,Pearl,discus
+200655,Coral,gourami
+200656,Marlin,cetáceo
+200657,Dory,pufferfish
+200658,Pearl,neon tetra
+200659,Squirt,tetra
+200660,Gill,neon tetra
+200661,Finley,tetra
+200662,Gill,angel fish
+200663,Squirt,danio
+200664,Nemo,neon tetra
+200665,Pearl,killifish
+200666,Gill,catfish
+200667,Coral,molly
+200668,Squirt,tetra
+200669,Squirt,rainbow fish
+200670,Nemo,tetra
+200671,Marlin,rasbora
+200672,Squirt,tiburon
+200673,Marlin,tetra
+200674,Gill,guppy
+200675,Gill,molly
+200676,Coral,danio
+200677,Squirt,tetra
+200678,Nemo,danio
+200679,Gill,pufferfish
+200680,Bubbles,discus
+200681,Pearl,betta
+200682,Pearl,betta
+200683,Gill,koi
+200684,Squirt,cichlid
+200685,Gill,catfish
+200686,Gill,mamifero
+200687,Squirt,guppy
+200688,Nemo,rasbora
+200689,Pearl,tetra
+200690,Gill,betta
+200691,Marlin,arowana
+200692,Coral,salmon
+200693,Pearl,salmon
+200694,Pearl,killifish
+200695,Bubbles,arowana
+200696,Bubbles,trout
+200697,Flounder,angel fish
+200698,Squirt,salmon
+200699,Flounder,tetra
+200700,Coral,cetaceo
+200701,Flounder,neon tetra
+200702,Flounder,goldfish
+200703,Marlin,rainbow fish
+200704,Dory,mamifero
+200705,Coral,barb
+200706,Squirt,neon tetra
+200707,Coral,tetra
+200708,Dory,guppy
+200709,Squirt,molly
+200710,Finley,betta
+200711,Coral,molly
+200712,Nemo,catfish
+200713,Nemo,pufferfish
+200714,Nemo,neon tetra
+200715,Flounder,salmon
+200716,Gill,tetra
+200717,Bubbles,tiburon
+200718,Bubbles,guppy
+200719,Coral,angel fish
+200720,Finley,mamifero
+200721,Bubbles,tetra
+200722,Dory,angel fish
+200723,Bubbles,pufferfish
+200724,Coral,cetáceo
+200725,Pearl,guppy
+200726,Dory,barb
+200727,Flounder,koi
+200728,Finley,swordtail
+200729,Squirt,discus
+200730,Flounder,swordtail
+200731,Bubbles,cetáceo
+200732,Marlin,tetra
+200733,Bubbles,cetáceo
+200734,Gill,salmon
+200735,Squirt,salmon
+200736,Coral,molly
+200737,Bubbles,killifish
+200738,Bubbles,arowana
+200739,Marlin,goldfish
+200740,Finley,catfish
+200741,Pearl,angel fish
+200742,Nemo,cetaceo
+200743,Bubbles,molly
+200744,Pearl,cetáceo
+200745,Marlin,cichlid
+200746,Gill,cichlid
+200747,Marlin,arowana
+200748,Marlin,catfish
+200749,Dory,rainbow fish
+200750,Bubbles,anchovy
+200751,Finley,trout
+200752,Gill,cichlid
+200753,Pearl,cetáceo
+200754,Finley,angel fish
+200755,Dory,betta
+200756,Flounder,cichlid
+200757,Gill,tetra
+200758,Pearl,angel fish
+200759,Coral,guppy
+200760,Finley,angel fish
+200761,Nemo,betta
+200762,Gill,tiburon
+200763,Squirt,rasbora
+200764,Dory,rasbora
+200765,Dory,arowana
+200766,Squirt,gourami
+200767,Marlin,rasbora
+200768,Gill,cetaceo
+200769,Nemo,salmon
+200770,Marlin,catfish
+200771,Bubbles,molly
+200772,Marlin,koi
+200773,Squirt,tetra
+200774,Bubbles,angel fish
+200775,Coral,guppy
+200776,Squirt,cetáceo
+200777,Dory,goldfish
+200778,Dory,rainbow fish
+200779,Bubbles,pufferfish
+200780,Dory,cetáceo
+200781,Coral,rasbora
+200782,Coral,killifish
+200783,Flounder,pufferfish
+200784,Coral,tiburon
+200785,Nemo,danio
+200786,Gill,goldfish
+200787,Bubbles,catfish
+200788,Bubbles,catfish
+200789,Finley,cetáceo
+200790,Gill,neon tetra
+200791,Dory,discus
+200792,Dory,goldfish
+200793,Dory,catfish
+200794,Flounder,cichlid
+200795,Finley,angel fish
+200796,Bubbles,danio
+200797,Dory,rasbora
+200798,Flounder,gourami
+200799,Dory,cetáceo
+200800,Finley,tiburon
+200801,Coral,salmon
+200802,Coral,arowana
+200803,Pearl,barb
+200804,Coral,barb
+200805,Nemo,killifish
+200806,Coral,mamifero
+200807,Marlin,discus
+200808,Finley,barb
+200809,Squirt,molly
+200810,Bubbles,gourami
+200811,Nemo,arowana
+200812,Pearl,neon tetra
+200813,Pearl,tetra
+200814,Coral,swordtail
+200815,Dory,catfish
+200816,Pearl,anchovy
+200817,Squirt,gourami
+200818,Marlin,cetaceo
+200819,Pearl,guppy
+200820,Flounder,arowana
+200821,Pearl,tetra
+200822,Dory,danio
+200823,Nemo,catfish
+200824,Coral,pufferfish
+200825,Flounder,danio
+200826,Dory,cichlid
+200827,Squirt,killifish
+200828,Bubbles,guppy
+200829,Squirt,rainbow fish
+200830,Bubbles,cetáceo
+200831,Finley,rainbow fish
+200832,Squirt,cetáceo
+200833,Flounder,trout
+200834,Gill,cichlid
+200835,Squirt,salmon
+200836,Coral,pufferfish
+200837,Pearl,goldfish
+200838,Marlin,cetaceo
+200839,Bubbles,arowana
+200840,Dory,goldfish
+200841,Squirt,salmon
+200842,Nemo,betta
+200843,Flounder,cetáceo
+200844,Nemo,trout
+200845,Squirt,trout
+200846,Coral,koi
+200847,Marlin,salmon
+200848,Nemo,gourami
+200849,Nemo,killifish
+200850,Dory,arowana
+200851,Dory,cetaceo
+200852,Bubbles,killifish
+200853,Flounder,trout
+200854,Flounder,goldfish
+200855,Coral,mamifero
+200856,Bubbles,discus
+200857,Flounder,barb
+200858,Dory,killifish
+200859,Nemo,cetaceo
+200860,Marlin,angel fish
+200861,Finley,pufferfish
+200862,Coral,salmon
+200863,Coral,rasbora
+200864,Gill,tiburon
+200865,Bubbles,cetáceo
+200866,Finley,cetáceo
+200867,Dory,killifish
+200868,Nemo,arowana
+200869,Coral,anchovy
+200870,Coral,danio
+200871,Gill,cetaceo
+200872,Marlin,koi
+200873,Flounder,anchovy
+200874,Pearl,rainbow fish
+200875,Marlin,goldfish
+200876,Flounder,trout
+200877,Flounder,arowana
+200878,Nemo,tetra
+200879,Nemo,catfish
+200880,Marlin,salmon
+200881,Gill,tetra
+200882,Bubbles,cichlid
+200883,Coral,goldfish
+200884,Pearl,cichlid
+200885,Pearl,molly
+200886,Dory,tiburon
+200887,Pearl,koi
+200888,Flounder,barb
+200889,Pearl,rainbow fish
+200890,Marlin,koi
+200891,Pearl,discus
+200892,Finley,salmon
+200893,Coral,tetra
+200894,Coral,danio
+200895,Dory,salmon
+200896,Flounder,anchovy
+200897,Finley,cichlid
+200898,Marlin,neon tetra
+200899,Nemo,salmon
+200900,Pearl,gourami
+200901,Dory,cichlid
+200902,Nemo,anchovy
+200903,Squirt,swordtail
+200904,Dory,molly
+200905,Marlin,guppy
+200906,Bubbles,neon tetra
+200907,Finley,trout
+200908,Gill,gourami
+200909,Finley,betta
+200910,Bubbles,arowana
+200911,Nemo,tetra
+200912,Flounder,tiburon
+200913,Squirt,rainbow fish
+200914,Coral,rainbow fish
+200915,Flounder,pufferfish
+200916,Pearl,rasbora
+200917,Flounder,barb
+200918,Coral,koi
+200919,Squirt,swordtail
+200920,Nemo,arowana
+200921,Squirt,mamifero
+200922,Squirt,barb
+200923,Flounder,cetáceo
+200924,Squirt,barb
+200925,Nemo,catfish
+200926,Marlin,neon tetra
+200927,Flounder,mamifero
+200928,Flounder,tiburon
+200929,Finley,neon tetra
+200930,Gill,swordtail
+200931,Squirt,neon tetra
+200932,Nemo,mamifero
+200933,Gill,cetaceo
+200934,Nemo,barb
+200935,Coral,killifish
+200936,Gill,arowana
+200937,Gill,tetra
+200938,Coral,molly
+200939,Finley,gourami
+200940,Squirt,goldfish
+200941,Nemo,cichlid
+200942,Marlin,molly
+200943,Gill,killifish
+200944,Gill,pufferfish
+200945,Dory,anchovy
+200946,Coral,koi
+200947,Bubbles,salmon
+200948,Finley,catfish
+200949,Finley,swordtail
+200950,Gill,danio
+200951,Bubbles,trout
+200952,Gill,catfish
+200953,Squirt,neon tetra
+200954,Flounder,goldfish
+200955,Coral,salmon
+200956,Pearl,pufferfish
+200957,Dory,gourami
+200958,Marlin,barb
+200959,Gill,guppy
+200960,Squirt,swordtail
+200961,Nemo,pufferfish
+200962,Bubbles,killifish
+200963,Finley,mamifero
+200964,Dory,tiburon
+200965,Squirt,swordtail
+200966,Nemo,danio
+200967,Marlin,tetra
+200968,Dory,arowana
+200969,Finley,tiburon
+200970,Marlin,gourami
+200971,Nemo,killifish
+200972,Marlin,anchovy
+200973,Bubbles,koi
+200974,Squirt,tetra
+200975,Coral,discus
+200976,Coral,rasbora
+200977,Squirt,betta
+200978,Marlin,gourami
+200979,Squirt,discus
+200980,Squirt,neon tetra
+200981,Nemo,danio
+200982,Flounder,tiburon
+200983,Gill,swordtail
+200984,Nemo,rainbow fish
+200985,Flounder,trout
+200986,Flounder,gourami
+200987,Coral,tetra
+200988,Bubbles,gourami
+200989,Finley,discus
+200990,Flounder,mamifero
+200991,Dory,anchovy
+200992,Pearl,anchovy
+200993,Flounder,discus
+200994,Dory,salmon
+200995,Bubbles,rasbora
+200996,Flounder,swordtail
+200997,Finley,cichlid
+200998,Flounder,cichlid
+200999,Gill,molly
+2001000,Gill,swordtail
+2001001,Marlin,cetáceo
+2001002,Finley,cetáceo
+2001003,Nemo,pufferfish
+2001004,Squirt,cetáceo
+2001005,Gill,cetáceo
+2001006,Coral,molly
+2001007,Marlin,tiburon
+2001008,Dory,cetáceo
+2001009,Flounder,cichlid
+20010010,Nemo,rasbora
+20010011,Coral,tiburon
+20010012,Nemo,cetaceo
+20010013,Marlin,danio
+20010014,Flounder,cetáceo
+20010015,Dory,neon tetra
+20010016,Pearl,tetra
+20010017,Coral,tiburon
+20010018,Dory,salmon
+20010019,Marlin,mamifero
+20010020,Pearl,cetáceo
+20010021,Bubbles,cetáceo
+20010022,Finley,cetaceo
+20010023,Squirt,catfish
+20010024,Finley,tetra
+20010025,Dory,guppy
+20010026,Coral,tiburon
+20010027,Finley,cichlid
+20010028,Coral,danio
+20010029,Nemo,neon tetra
+20010030,Gill,cetáceo
+20010031,Finley,cetaceo
+20010032,Squirt,discus
+20010033,Dory,killifish
+20010034,Dory,goldfish
+20010035,Finley,trout
+20010036,Finley,trout
+20010037,Gill,arowana
+20010038,Dory,cichlid
+20010039,Coral,killifish
+20010040,Bubbles,discus
+20010041,Flounder,tiburon
+20010042,Nemo,angel fish
+20010043,Nemo,swordtail
+20010044,Coral,barb
+20010045,Coral,betta
+20010046,Gill,gourami
+20010047,Dory,trout
+20010048,Pearl,anchovy
+20010049,Finley,trout
+20010050,Nemo,tetra
+20010051,Coral,catfish
+20010052,Flounder,danio
+20010053,Finley,danio
+20010054,Marlin,arowana
+20010055,Nemo,molly
+20010056,Coral,mamifero
+20010057,Coral,anchovy
+20010058,Finley,salmon
+20010059,Coral,mamifero
+20010060,Finley,cichlid
+20010061,Coral,cichlid
+20010062,Flounder,salmon
+20010063,Pearl,pufferfish
+20010064,Finley,anchovy
+20010065,Coral,barb
+20010066,Gill,rasbora
+20010067,Finley,molly
+20010068,Nemo,tiburon
+20010069,Squirt,cetáceo
+20010070,Dory,neon tetra
+20010071,Nemo,cetáceo
+20010072,Pearl,guppy
+20010073,Dory,molly
+20010074,Bubbles,trout
+20010075,Coral,angel fish
+20010076,Gill,rainbow fish
+20010077,Marlin,rainbow fish
+20010078,Flounder,swordtail
+20010079,Dory,anchovy
+20010080,Squirt,rainbow fish
+20010081,Dory,rasbora
+20010082,Dory,cetáceo
+20010083,Squirt,catfish
+20010084,Bubbles,swordtail
+20010085,Bubbles,pufferfish
+20010086,Marlin,rasbora
+20010087,Finley,trout
+20010088,Flounder,angel fish
+20010089,Pearl,trout
+20010090,Coral,danio
+20010091,Finley,rasbora
+20010092,Gill,swordtail
+20010093,Gill,discus
+20010094,Finley,mamifero
+20010095,Pearl,pufferfish
+20010096,Squirt,mamifero
+20010097,Squirt,barb
+20010098,Squirt,killifish
+20010099,Marlin,swordtail
+200100100,Marlin,cetaceo
+200100101,Bubbles,betta
+200100102,Gill,koi
+200100103,Nemo,guppy
+200100104,Bubbles,catfish
+200100105,Dory,koi
+200100106,Pearl,salmon
+200100107,Gill,rainbow fish
+200100108,Dory,rasbora
+200100109,Marlin,molly
+200100110,Pearl,cetaceo
+200100111,Flounder,gourami
+200100112,Flounder,koi
+200100113,Pearl,catfish
+200100114,Nemo,rasbora
+200100115,Nemo,cichlid
+200100116,Bubbles,rasbora
+200100117,Pearl,betta
+200100118,Nemo,guppy
+200100119,Marlin,gourami
+200100120,Marlin,tiburon
+200100121,Nemo,tetra
+200100122,Squirt,gourami
+200100123,Dory,goldfish
+200100124,Dory,killifish
+200100125,Marlin,danio
+200100126,Dory,guppy
+200100127,Bubbles,gourami
+200100128,Coral,barb
+200100129,Marlin,anchovy
+200100130,Gill,tiburon
+200100131,Finley,pufferfish
+200100132,Squirt,cetáceo
+200100133,Bubbles,neon tetra
+200100134,Finley,swordtail
+200100135,Bubbles,angel fish
+200100136,Finley,betta
+200100137,Pearl,cichlid
+200100138,Squirt,danio
+200100139,Pearl,tetra
+200100140,Bubbles,rasbora
+200100141,Gill,neon tetra
+200100142,Gill,swordtail
+200100143,Squirt,anchovy
+200100144,Gill,tiburon
+200100145,Finley,rainbow fish
+200100146,Bubbles,neon tetra
+200100147,Pearl,gourami
+200100148,Coral,danio
+200100149,Pearl,mamifero
+200100150,Gill,tetra
+200100151,Dory,arowana
+200100152,Finley,tetra
+200100153,Coral,catfish
+200100154,Coral,cetaceo
+200100155,Nemo,cetaceo
+200100156,Dory,barb
+200100157,Dory,koi
+200100158,Coral,danio
+200100159,Flounder,rasbora
+200100160,Dory,betta
+200100161,Coral,killifish
+200100162,Flounder,betta
+200100163,Dory,koi
+200100164,Gill,arowana
+200100165,Coral,salmon
+200100166,Nemo,guppy
+200100167,Flounder,arowana
+200100168,Coral,danio
+200100169,Dory,rainbow fish
+200100170,Gill,tetra
+200100171,Coral,molly
+200100172,Marlin,neon tetra
+200100173,Dory,tiburon
+200100174,Finley,gourami
+200100175,Pearl,angel fish
+200100176,Nemo,tiburon
+200100177,Pearl,trout
+200100178,Flounder,goldfish
+200100179,Gill,cetaceo
+200100180,Dory,molly
+200100181,Bubbles,salmon
+200100182,Nemo,betta
+200100183,Dory,guppy
+200100184,Marlin,catfish
+200100185,Gill,mamifero
+200100186,Finley,tetra
+200100187,Nemo,gourami
+200100188,Flounder,discus
+200100189,Flounder,trout
+200100190,Flounder,barb
+200100191,Pearl,anchovy
+200100192,Flounder,neon tetra
+200100193,Nemo,angel fish
+200100194,Dory,trout
+200100195,Gill,danio
+200100196,Bubbles,tiburon
+200100197,Marlin,neon tetra
+200100198,Squirt,salmon
+200100199,Marlin,mamifero
+200100200,Gill,killifish
+200100201,Coral,guppy
+200100202,Bubbles,cetáceo
+200100203,Squirt,molly
+200100204,Finley,anchovy
+200100205,Pearl,tiburon
+200100206,Nemo,salmon
+200100207,Marlin,killifish
+200100208,Coral,anchovy
+200100209,Flounder,trout
+200100210,Gill,danio
+200100211,Finley,gourami
+200100212,Marlin,gourami
+200100213,Gill,arowana
+200100214,Finley,tiburon
+200100215,Gill,discus
+200100216,Squirt,salmon
+200100217,Flounder,trout
+200100218,Coral,discus
+200100219,Coral,neon tetra
+200100220,Bubbles,goldfish
+200100221,Pearl,neon tetra
+200100222,Finley,tiburon
+200100223,Flounder,tiburon
+200100224,Pearl,trout
+200100225,Gill,pufferfish
+200100226,Dory,rasbora
+200100227,Flounder,anchovy
+200100228,Nemo,mamifero
+200100229,Marlin,cetaceo
+200100230,Bubbles,salmon
+200100231,Dory,tiburon
+200100232,Coral,cetáceo
+200100233,Coral,neon tetra
+200100234,Bubbles,cetaceo
+200100235,Dory,cetaceo
+200100236,Marlin,catfish
+200100237,Flounder,cichlid
+200100238,Flounder,betta
+200100239,Bubbles,koi
+200100240,Bubbles,goldfish
+200100241,Marlin,trout
+200100242,Squirt,swordtail
+200100243,Dory,swordtail
+200100244,Nemo,barb
+200100245,Gill,tetra
+200100246,Gill,cetáceo
+200100247,Dory,swordtail
+200100248,Coral,discus
+200100249,Coral,salmon
+200100250,Marlin,guppy
+200100251,Squirt,discus
+200100252,Marlin,cetáceo
+200100253,Coral,cichlid
+200100254,Marlin,salmon
+200100255,Finley,molly
+200100256,Flounder,danio
+200100257,Pearl,salmon
+200100258,Pearl,swordtail
+200100259,Marlin,barb
+200100260,Squirt,trout
+200100261,Gill,cetáceo
+200100262,Bubbles,neon tetra
+200100263,Gill,arowana
+200100264,Pearl,goldfish
+200100265,Pearl,mamifero
+200100266,Coral,arowana
+200100267,Squirt,rainbow fish
+200100268,Squirt,koi
+200100269,Bubbles,swordtail
+200100270,Marlin,salmon
+200100271,Squirt,rainbow fish
+200100272,Dory,anchovy
+200100273,Marlin,danio
+200100274,Pearl,pufferfish
+200100275,Bubbles,salmon
+200100276,Flounder,pufferfish
+200100277,Pearl,trout
+200100278,Nemo,trout
+200100279,Squirt,cetáceo
+200100280,Nemo,mamifero
+200100281,Marlin,gourami
+200100282,Coral,cichlid
+200100283,Dory,killifish
+200100284,Flounder,gourami
+200100285,Marlin,goldfish
+200100286,Coral,anchovy
+200100287,Coral,discus
+200100288,Bubbles,salmon
+200100289,Squirt,mamifero
+200100290,Finley,discus
+200100291,Marlin,anchovy
+200100292,Nemo,guppy
+200100293,Coral,tetra
+200100294,Gill,salmon
+200100295,Gill,catfish
+200100296,Nemo,arowana
+200100297,Bubbles,barb
+200100298,Gill,neon tetra
+200100299,Bubbles,rainbow fish
+200100300,Gill,trout
+200100301,Nemo,trout
+200100302,Dory,killifish
+200100303,Coral,cichlid
+200100304,Pearl,anchovy
+200100305,Gill,betta
+200100306,Squirt,cetáceo
+200100307,Marlin,tetra
+200100308,Finley,anchovy
+200100309,Coral,neon tetra
+200100310,Flounder,swordtail
+200100311,Nemo,cichlid
+200100312,Dory,koi
+200100313,Coral,rainbow fish
+200100314,Flounder,killifish
+200100315,Pearl,swordtail
+200100316,Marlin,swordtail
+200100317,Gill,catfish
+200100318,Coral,pufferfish
+200100319,Flounder,cetaceo
+200100320,Gill,cetaceo
+200100321,Pearl,tetra
+200100322,Finley,cetáceo
+200100323,Bubbles,arowana
+200100324,Pearl,rainbow fish
+200100325,Dory,gourami
+200100326,Gill,rasbora
+200100327,Dory,barb
+200100328,Finley,cetaceo
+200100329,Finley,discus
+200100330,Pearl,arowana
+200100331,Gill,molly
+200100332,Pearl,trout
+200100333,Gill,swordtail
+200100334,Gill,goldfish
+200100335,Pearl,killifish
+200100336,Marlin,discus
+200100337,Coral,swordtail
+200100338,Bubbles,cichlid
+200100339,Bubbles,koi
+200100340,Squirt,trout
+200100341,Dory,barb
+200100342,Dory,rainbow fish
+200100343,Flounder,pufferfish
+200100344,Dory,angel fish
+200100345,Squirt,swordtail
+200100346,Finley,cetáceo
+200100347,Marlin,gourami
+200100348,Gill,mamifero
+200100349,Nemo,guppy
+200100350,Nemo,rasbora
+200100351,Nemo,pufferfish
+200100352,Squirt,guppy
+200100353,Squirt,salmon
+200100354,Squirt,killifish
+200100355,Dory,tiburon
+200100356,Marlin,pufferfish
+200100357,Bubbles,discus
+200100358,Marlin,trout
+200100359,Gill,catfish
+200100360,Coral,rasbora
+200100361,Nemo,cetaceo
+200100362,Gill,cetaceo
+200100363,Flounder,goldfish
+200100364,Squirt,tiburon
+200100365,Pearl,cichlid
+200100366,Flounder,trout
+200100367,Nemo,cetáceo
+200100368,Pearl,guppy
+200100369,Coral,anchovy
+200100370,Finley,gourami
+200100371,Marlin,tiburon
+200100372,Pearl,gourami
+200100373,Flounder,goldfish
+200100374,Finley,cetáceo
+200100375,Coral,betta
+200100376,Coral,danio
+200100377,Squirt,betta
+200100378,Squirt,goldfish
+200100379,Dory,pufferfish
+200100380,Nemo,cetaceo
+200100381,Flounder,gourami
+200100382,Bubbles,neon tetra
+200100383,Finley,danio
+200100384,Nemo,discus
+200100385,Bubbles,pufferfish
+200100386,Finley,gourami
+200100387,Nemo,rasbora
+200100388,Gill,cetáceo
+200100389,Bubbles,swordtail
+200100390,Finley,trout
+200100391,Bubbles,catfish
+200100392,Dory,rasbora
+200100393,Finley,pufferfish
+200100394,Flounder,molly
+200100395,Marlin,cetáceo
+200100396,Flounder,swordtail
+200100397,Gill,anchovy
+200100398,Dory,guppy
+200100399,Nemo,mamifero
+200100400,Marlin,discus
+200100401,Gill,arowana
+200100402,Flounder,angel fish
+200100403,Gill,trout
+200100404,Marlin,guppy
+200100405,Dory,molly
+200100406,Dory,goldfish
+200100407,Flounder,cetaceo
+200100408,Squirt,angel fish
+200100409,Pearl,trout
+200100410,Gill,trout
+200100411,Dory,goldfish
+200100412,Coral,neon tetra
+200100413,Bubbles,salmon
+200100414,Coral,catfish
+200100415,Marlin,swordtail
+200100416,Squirt,anchovy
+200100417,Coral,arowana
+200100418,Nemo,betta
+200100419,Pearl,killifish
+200100420,Squirt,rainbow fish
+200100421,Dory,barb
+200100422,Finley,molly
+200100423,Dory,barb
+200100424,Nemo,cetáceo
+200100425,Coral,molly
+200100426,Gill,rainbow fish
+200100427,Dory,cichlid
+200100428,Flounder,arowana
+200100429,Gill,angel fish
+200100430,Bubbles,goldfish
+200100431,Dory,pufferfish
+200100432,Dory,trout
+200100433,Squirt,catfish
+200100434,Finley,guppy
+200100435,Coral,anchovy
+200100436,Dory,pufferfish
+200100437,Dory,tiburon
+200100438,Dory,trout
+200100439,Bubbles,molly
+200100440,Squirt,trout
+200100441,Gill,betta
+200100442,Gill,tetra
+200100443,Squirt,killifish
+200100444,Marlin,pufferfish
+200100445,Gill,rainbow fish
+200100446,Pearl,swordtail
+200100447,Nemo,guppy
+200100448,Pearl,trout
+200100449,Nemo,cetáceo
+200100450,Dory,anchovy
+200100451,Flounder,anchovy
+200100452,Bubbles,arowana
+200100453,Flounder,cetáceo
+200100454,Coral,cichlid
+200100455,Squirt,trout
+200100456,Pearl,barb
+200100457,Gill,neon tetra
+200100458,Finley,killifish
+200100459,Flounder,catfish
+200100460,Pearl,koi
+200100461,Nemo,swordtail
+200100462,Finley,angel fish
+200100463,Marlin,swordtail
+200100464,Marlin,rasbora
+200100465,Bubbles,cichlid
+200100466,Bubbles,koi
+200100467,Finley,gourami
+200100468,Dory,danio
+200100469,Squirt,koi
+200100470,Bubbles,angel fish
+200100471,Marlin,arowana
+200100472,Dory,cichlid
+200100473,Squirt,arowana
+200100474,Coral,barb
+200100475,Finley,rasbora
+200100476,Dory,anchovy
+200100477,Dory,trout
+200100478,Flounder,guppy
+200100479,Squirt,guppy
+200100480,Nemo,barb
+200100481,Nemo,swordtail
+200100482,Pearl,cichlid
+200100483,Dory,discus
+200100484,Gill,goldfish
+200100485,Pearl,anchovy
+200100486,Nemo,discus
+200100487,Pearl,pufferfish
+200100488,Flounder,neon tetra
+200100489,Bubbles,cetáceo
+200100490,Flounder,cetáceo
+200100491,Finley,cetaceo
+200100492,Bubbles,gourami
+200100493,Bubbles,tetra
+200100494,Flounder,cichlid
+200100495,Squirt,cichlid
+200100496,Finley,molly
+200100497,Flounder,guppy
+200100498,Flounder,betta
+200100499,Flounder,salmon
+200100500,Pearl,rasbora
+200100501,Bubbles,goldfish
+200100502,Bubbles,neon tetra
+200100503,Squirt,neon tetra
+200100504,Coral,cetáceo
+200100505,Finley,tiburon
+200100506,Squirt,rainbow fish
+200100507,Finley,tiburon
+200100508,Gill,angel fish
+200100509,Finley,cetáceo
+200100510,Gill,discus
+200100511,Nemo,anchovy
+200100512,Bubbles,killifish
+200100513,Gill,cetáceo
+200100514,Gill,cichlid
+200100515,Nemo,pufferfish
+200100516,Squirt,koi
+200100517,Coral,molly
+200100518,Bubbles,rasbora
+200100519,Finley,killifish
+200100520,Finley,mamifero
+200100521,Coral,rasbora
+200100522,Dory,cetáceo
+200100523,Coral,pufferfish
+200100524,Finley,salmon
+200100525,Gill,cetáceo
+200100526,Coral,betta
+200100527,Flounder,goldfish
+200100528,Flounder,danio
+200100529,Finley,cetáceo
+200100530,Nemo,killifish
+200100531,Squirt,anchovy
+200100532,Dory,angel fish
+200100533,Bubbles,pufferfish
+200100534,Gill,killifish
+200100535,Flounder,barb
+200100536,Finley,trout
+200100537,Dory,angel fish
+200100538,Flounder,angel fish
+200100539,Marlin,salmon
+200100540,Coral,killifish
+200100541,Dory,barb
+200100542,Dory,rasbora
+200100543,Nemo,danio
+200100544,Squirt,trout
+200100545,Pearl,pufferfish
+200100546,Bubbles,cichlid
+200100547,Dory,betta
+200100548,Bubbles,mamifero
+200100549,Gill,goldfish
+200100550,Gill,rasbora
+200100551,Pearl,betta
+200100552,Marlin,discus
+200100553,Gill,discus
+200100554,Dory,barb
+200100555,Squirt,neon tetra
+200100556,Nemo,cetáceo
+200100557,Dory,neon tetra
+200100558,Bubbles,gourami
+200100559,Coral,tiburon
+200100560,Pearl,salmon
+200100561,Flounder,cetaceo
+200100562,Pearl,neon tetra
+200100563,Squirt,barb
+200100564,Finley,catfish
+200100565,Gill,gourami
+200100566,Gill,danio
+200100567,Squirt,cetaceo
+200100568,Flounder,tetra
+200100569,Flounder,tiburon
+200100570,Flounder,discus
+200100571,Marlin,neon tetra
+200100572,Flounder,tetra
+200100573,Marlin,gourami
+200100574,Bubbles,rainbow fish
+200100575,Gill,salmon
+200100576,Finley,salmon
+200100577,Bubbles,mamifero
+200100578,Gill,cetáceo
+200100579,Flounder,swordtail
+200100580,Pearl,molly
+200100581,Flounder,guppy
+200100582,Nemo,arowana
+200100583,Bubbles,neon tetra
+200100584,Finley,rainbow fish
+200100585,Dory,mamifero
+200100586,Gill,discus
+200100587,Coral,mamifero
+200100588,Dory,molly
+200100589,Gill,killifish
+200100590,Gill,pufferfish
+200100591,Finley,cichlid
+200100592,Flounder,tetra
+200100593,Finley,tiburon
+200100594,Coral,catfish
+200100595,Squirt,cetáceo
+200100596,Finley,betta
+200100597,Finley,goldfish
+200100598,Squirt,anchovy
+200100599,Squirt,killifish
+200100600,Finley,tiburon
+200100601,Gill,cetaceo
+200100602,Dory,pufferfish
+200100603,Coral,anchovy
+200100604,Gill,tetra
+200100605,Finley,killifish
+200100606,Coral,betta
+200100607,Flounder,killifish
+200100608,Coral,guppy
+200100609,Coral,barb
+200100610,Finley,goldfish
+200100611,Nemo,molly
+200100612,Dory,gourami
+200100613,Marlin,discus
+200100614,Nemo,cetáceo
+200100615,Pearl,rasbora
+200100616,Finley,tiburon
+200100617,Flounder,cetáceo
+200100618,Bubbles,neon tetra
+200100619,Marlin,pufferfish
+200100620,Gill,swordtail
+200100621,Marlin,salmon
+200100622,Coral,barb
+200100623,Finley,cetáceo
+200100624,Pearl,tiburon
+200100625,Bubbles,barb
+200100626,Finley,gourami
+200100627,Finley,anchovy
+200100628,Pearl,discus
+200100629,Pearl,rainbow fish
+200100630,Coral,molly
+200100631,Bubbles,swordtail
+200100632,Nemo,cetáceo
+200100633,Gill,goldfish
+200100634,Bubbles,discus
+200100635,Coral,rainbow fish
+200100636,Squirt,swordtail
+200100637,Gill,catfish
+200100638,Bubbles,rasbora
+200100639,Flounder,killifish
+200100640,Gill,anchovy
+200100641,Coral,arowana
+200100642,Dory,cetaceo
+200100643,Bubbles,tetra
+200100644,Flounder,killifish
+200100645,Flounder,betta
+200100646,Flounder,molly
+200100647,Nemo,tiburon
+200100648,Flounder,discus
+200100649,Gill,rainbow fish
+200100650,Gill,arowana
+200100651,Pearl,swordtail
+200100652,Marlin,betta
+200100653,Pearl,discus
+200100654,Pearl,discus
+200100655,Coral,gourami
+200100656,Marlin,cetáceo
+200100657,Dory,pufferfish
+200100658,Pearl,neon tetra
+200100659,Squirt,tetra
+200100660,Gill,neon tetra
+200100661,Finley,tetra
+200100662,Gill,angel fish
+200100663,Squirt,danio
+200100664,Nemo,neon tetra
+200100665,Pearl,killifish
+200100666,Gill,catfish
+200100667,Coral,molly
+200100668,Squirt,tetra
+200100669,Squirt,rainbow fish
+200100670,Nemo,tetra
+200100671,Marlin,rasbora
+200100672,Squirt,tiburon
+200100673,Marlin,tetra
+200100674,Gill,guppy
+200100675,Gill,molly
+200100676,Coral,danio
+200100677,Squirt,tetra
+200100678,Nemo,danio
+200100679,Gill,pufferfish
+200100680,Bubbles,discus
+200100681,Pearl,betta
+200100682,Pearl,betta
+200100683,Gill,koi
+200100684,Squirt,cichlid
+200100685,Gill,catfish
+200100686,Gill,mamifero
+200100687,Squirt,guppy
+200100688,Nemo,rasbora
+200100689,Pearl,tetra
+200100690,Gill,betta
+200100691,Marlin,arowana
+200100692,Coral,salmon
+200100693,Pearl,salmon
+200100694,Pearl,killifish
+200100695,Bubbles,arowana
+200100696,Bubbles,trout
+200100697,Flounder,angel fish
+200100698,Squirt,salmon
+200100699,Flounder,tetra
+200100700,Coral,cetaceo
+200100701,Flounder,neon tetra
+200100702,Flounder,goldfish
+200100703,Marlin,rainbow fish
+200100704,Dory,mamifero
+200100705,Coral,barb
+200100706,Squirt,neon tetra
+200100707,Coral,tetra
+200100708,Dory,guppy
+200100709,Squirt,molly
+200100710,Finley,betta
+200100711,Coral,molly
+200100712,Nemo,catfish
+200100713,Nemo,pufferfish
+200100714,Nemo,neon tetra
+200100715,Flounder,salmon
+200100716,Gill,tetra
+200100717,Bubbles,tiburon
+200100718,Bubbles,guppy
+200100719,Coral,angel fish
+200100720,Finley,mamifero
+200100721,Bubbles,tetra
+200100722,Dory,angel fish
+200100723,Bubbles,pufferfish
+200100724,Coral,cetáceo
+200100725,Pearl,guppy
+200100726,Dory,barb
+200100727,Flounder,koi
+200100728,Finley,swordtail
+200100729,Squirt,discus
+200100730,Flounder,swordtail
+200100731,Bubbles,cetáceo
+200100732,Marlin,tetra
+200100733,Bubbles,cetáceo
+200100734,Gill,salmon
+200100735,Squirt,salmon
+200100736,Coral,molly
+200100737,Bubbles,killifish
+200100738,Bubbles,arowana
+200100739,Marlin,goldfish
+200100740,Finley,catfish
+200100741,Pearl,angel fish
+200100742,Nemo,cetaceo
+200100743,Bubbles,molly
+200100744,Pearl,cetáceo
+200100745,Marlin,cichlid
+200100746,Gill,cichlid
+200100747,Marlin,arowana
+200100748,Marlin,catfish
+200100749,Dory,rainbow fish
+200100750,Bubbles,anchovy
+200100751,Finley,trout
+200100752,Gill,cichlid
+200100753,Pearl,cetáceo
+200100754,Finley,angel fish
+200100755,Dory,betta
+200100756,Flounder,cichlid
+200100757,Gill,tetra
+200100758,Pearl,angel fish
+200100759,Coral,guppy
+200100760,Finley,angel fish
+200100761,Nemo,betta
+200100762,Gill,tiburon
+200100763,Squirt,rasbora
+200100764,Dory,rasbora
+200100765,Dory,arowana
+200100766,Squirt,gourami
+200100767,Marlin,rasbora
+200100768,Gill,cetaceo
+200100769,Nemo,salmon
+200100770,Marlin,catfish
+200100771,Bubbles,molly
+200100772,Marlin,koi
+200100773,Squirt,tetra
+200100774,Bubbles,angel fish
+200100775,Coral,guppy
+200100776,Squirt,cetáceo
+200100777,Dory,goldfish
+200100778,Dory,rainbow fish
+200100779,Bubbles,pufferfish
+200100780,Dory,cetáceo
+200100781,Coral,rasbora
+200100782,Coral,killifish
+200100783,Flounder,pufferfish
+200100784,Coral,tiburon
+200100785,Nemo,danio
+200100786,Gill,goldfish
+200100787,Bubbles,catfish
+200100788,Bubbles,catfish
+200100789,Finley,cetáceo
+200100790,Gill,neon tetra
+200100791,Dory,discus
+200100792,Dory,goldfish
+200100793,Dory,catfish
+200100794,Flounder,cichlid
+200100795,Finley,angel fish
+200100796,Bubbles,danio
+200100797,Dory,rasbora
+200100798,Flounder,gourami
+200100799,Dory,cetáceo
+200100800,Finley,tiburon
+200100801,Coral,salmon
+200100802,Coral,arowana
+200100803,Pearl,barb
+200100804,Coral,barb
+200100805,Nemo,killifish
+200100806,Coral,mamifero
+200100807,Marlin,discus
+200100808,Finley,barb
+200100809,Squirt,molly
+200100810,Bubbles,gourami
+200100811,Nemo,arowana
+200100812,Pearl,neon tetra
+200100813,Pearl,tetra
+200100814,Coral,swordtail
+200100815,Dory,catfish
+200100816,Pearl,anchovy
+200100817,Squirt,gourami
+200100818,Marlin,cetaceo
+200100819,Pearl,guppy
+200100820,Flounder,arowana
+200100821,Pearl,tetra
+200100822,Dory,danio
+200100823,Nemo,catfish
+200100824,Coral,pufferfish
+200100825,Flounder,danio
+200100826,Dory,cichlid
+200100827,Squirt,killifish
+200100828,Bubbles,guppy
+200100829,Squirt,rainbow fish
+200100830,Bubbles,cetáceo
+200100831,Finley,rainbow fish
+200100832,Squirt,cetáceo
+200100833,Flounder,trout
+200100834,Gill,cichlid
+200100835,Squirt,salmon
+200100836,Coral,pufferfish
+200100837,Pearl,goldfish
+200100838,Marlin,cetaceo
+200100839,Bubbles,arowana
+200100840,Dory,goldfish
+200100841,Squirt,salmon
+200100842,Nemo,betta
+200100843,Flounder,cetáceo
+200100844,Nemo,trout
+200100845,Squirt,trout
+200100846,Coral,koi
+200100847,Marlin,salmon
+200100848,Nemo,gourami
+200100849,Nemo,killifish
+200100850,Dory,arowana
+200100851,Dory,cetaceo
+200100852,Bubbles,killifish
+200100853,Flounder,trout
+200100854,Flounder,goldfish
+200100855,Coral,mamifero
+200100856,Bubbles,discus
+200100857,Flounder,barb
+200100858,Dory,killifish
+200100859,Nemo,cetaceo
+200100860,Marlin,angel fish
+200100861,Finley,pufferfish
+200100862,Coral,salmon
+200100863,Coral,rasbora
+200100864,Gill,tiburon
+200100865,Bubbles,cetáceo
+200100866,Finley,cetáceo
+200100867,Dory,killifish
+200100868,Nemo,arowana
+200100869,Coral,anchovy
+200100870,Coral,danio
+200100871,Gill,cetaceo
+200100872,Marlin,koi
+200100873,Flounder,anchovy
+200100874,Pearl,rainbow fish
+200100875,Marlin,goldfish
+200100876,Flounder,trout
+200100877,Flounder,arowana
+200100878,Nemo,tetra
+200100879,Nemo,catfish
+200100880,Marlin,salmon
+200100881,Gill,tetra
+200100882,Bubbles,cichlid
+200100883,Coral,goldfish
+200100884,Pearl,cichlid
+200100885,Pearl,molly
+200100886,Dory,tiburon
+200100887,Pearl,koi
+200100888,Flounder,barb
+200100889,Pearl,rainbow fish
+200100890,Marlin,koi
+200100891,Pearl,discus
+200100892,Finley,salmon
+200100893,Coral,tetra
+200100894,Coral,danio
+200100895,Dory,salmon
+200100896,Flounder,anchovy
+200100897,Finley,cichlid
+200100898,Marlin,neon tetra
+200100899,Nemo,salmon
+200100900,Pearl,gourami
+200100901,Dory,cichlid
+200100902,Nemo,anchovy
+200100903,Squirt,swordtail
+200100904,Dory,molly
+200100905,Marlin,guppy
+200100906,Bubbles,neon tetra
+200100907,Finley,trout
+200100908,Gill,gourami
+200100909,Finley,betta
+200100910,Bubbles,arowana
+200100911,Nemo,tetra
+200100912,Flounder,tiburon
+200100913,Squirt,rainbow fish
+200100914,Coral,rainbow fish
+200100915,Flounder,pufferfish
+200100916,Pearl,rasbora
+200100917,Flounder,barb
+200100918,Coral,koi
+200100919,Squirt,swordtail
+200100920,Nemo,arowana
+200100921,Squirt,mamifero
+200100922,Squirt,barb
+200100923,Flounder,cetáceo
+200100924,Squirt,barb
+200100925,Nemo,catfish
+200100926,Marlin,neon tetra
+200100927,Flounder,mamifero
+200100928,Flounder,tiburon
+200100929,Finley,neon tetra
+200100930,Gill,swordtail
+200100931,Squirt,neon tetra
+200100932,Nemo,mamifero
+200100933,Gill,cetaceo
+200100934,Nemo,barb
+200100935,Coral,killifish
+200100936,Gill,arowana
+200100937,Gill,tetra
+200100938,Coral,molly
+200100939,Finley,gourami
+200100940,Squirt,goldfish
+200100941,Nemo,cichlid
+200100942,Marlin,molly
+200100943,Gill,killifish
+200100944,Gill,pufferfish
+200100945,Dory,anchovy
+200100946,Coral,koi
+200100947,Bubbles,salmon
+200100948,Finley,catfish
+200100949,Finley,swordtail
+200100950,Gill,danio
+200100951,Bubbles,trout
+200100952,Gill,catfish
+200100953,Squirt,neon tetra
+200100954,Flounder,goldfish
+200100955,Coral,salmon
+200100956,Pearl,pufferfish
+200100957,Dory,gourami
+200100958,Marlin,barb
+200100959,Gill,guppy
+200100960,Squirt,swordtail
+200100961,Nemo,pufferfish
+200100962,Bubbles,killifish
+200100963,Finley,mamifero
+200100964,Dory,tiburon
+200100965,Squirt,swordtail
+200100966,Nemo,danio
+200100967,Marlin,tetra
+200100968,Dory,arowana
+200100969,Finley,tiburon
+200100970,Marlin,gourami
+200100971,Nemo,killifish
+200100972,Marlin,anchovy
+200100973,Bubbles,koi
+200100974,Squirt,tetra
+200100975,Coral,discus
+200100976,Coral,rasbora
+200100977,Squirt,betta
+200100978,Marlin,gourami
+200100979,Squirt,discus
+200100980,Squirt,neon tetra
+200100981,Nemo,danio
+200100982,Flounder,tiburon
+200100983,Gill,swordtail
+200100984,Nemo,rainbow fish
+200100985,Flounder,trout
+200100986,Flounder,gourami
+200100987,Coral,tetra
+200100988,Bubbles,gourami
+200100989,Finley,discus
+200100990,Flounder,mamifero
+200100991,Dory,anchovy
+200100992,Pearl,anchovy
+200100993,Flounder,discus
+200100994,Dory,salmon
+200100995,Bubbles,rasbora
+200100996,Flounder,swordtail
+200100997,Finley,cichlid
+200100998,Flounder,cichlid
+200100999,Gill,molly
+2001001000,Gill,swordtail
