@@ -104,7 +104,7 @@ $$
 LANGUAGE 'plpgsql';
 
 
-CREATE OR REPLACE validar_alimentacion TRIGGER BEFORE INSERT ON alimentacion FOR EACH ROW EXECUTE PROCEDURE alimentacion_valida();
+CREATE OR REPLACE TRIGGER validar_alimentacion  BEFORE INSERT ON alimentacion FOR EACH ROW EXECUTE PROCEDURE alimentacion_valida();
 
 --
 ---C---
@@ -164,4 +164,5 @@ GRANT SELECT, INSERT ON peces, alimentacion TO cuidador_acuario;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA PUBLIC TO administrador_acuario
 
 --eliminar rol
+REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA PUBLIC FROM administrador_acuario;
 DROP ROLE administrador_acuario;
